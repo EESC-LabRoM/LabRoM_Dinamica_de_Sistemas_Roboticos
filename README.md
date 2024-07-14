@@ -1,1 +1,1 @@
-# LabRoM_Dinamica_de_Sistemas_Roboticos
+# Dinamica_Sistemas_Roboticos
