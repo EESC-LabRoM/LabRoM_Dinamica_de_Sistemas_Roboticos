@@ -1,0 +1,15 @@
+/home/ROS/ros2_ws/install/puma560_description/share/ament_index/resource_index/package_run_dependencies/puma560_description
+/home/ROS/ros2_ws/install/puma560_description/share/ament_index/resource_index/parent_prefix_path/puma560_description
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.sh
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.dsv
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/environment/path.sh
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/environment/path.dsv
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/local_setup.bash
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/local_setup.sh
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/local_setup.zsh
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/local_setup.dsv
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/package.dsv
+/home/ROS/ros2_ws/install/puma560_description/share/ament_index/resource_index/packages/puma560_description
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig.cmake
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig-version.cmake
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/package.xml

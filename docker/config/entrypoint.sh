@@ -7,5 +7,5 @@ source /opt/ros/humble/setup.bash
 # source /opt/ros/humble/setup.zsh
 # echo "Provided arguments: $@"
 
-chown -R ros_ws:ros_ws /home/ROS/ros_ws
+chown -R ros2_ws:ros2_ws /home/ROS/ros2_ws
 exec $@

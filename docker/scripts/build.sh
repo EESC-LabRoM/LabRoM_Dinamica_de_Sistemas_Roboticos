@@ -23,6 +23,6 @@ fi
 docker build \
     --network=host \
     -f ROS_humble.dockerfile \
-    -t ros_ws:humble \
+    -t ros2_ws:humble \
     --rm \
     .

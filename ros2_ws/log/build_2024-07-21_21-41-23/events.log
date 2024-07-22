@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000117] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.005494] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.005782] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.006179] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ROS/ros2_ws/build/robot_description', '--', '-j20', '-l20'], 'cwd': '/home/ROS/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ROS/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ROS/ros2_ws/install/robot_description:/opt/ros/humble'), ('PWD', '/home/ROS/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ROS/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[0.032521] (robot_description) CommandEnded: {'returncode': 0}
+[0.053191] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.062579] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ROS/ros2_ws/build/robot_description'], 'cwd': '/home/ROS/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('OLDPWD', '/home/ROS/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ROS/ros2_ws/install/robot_description:/opt/ros/humble'), ('PWD', '/home/ROS/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ROS/ros2_ws/install/robot_description:/opt/ros/humble')]), 'shell': False}
+[0.070950] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.071084] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[0.071212] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ROS/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[0.071304] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/urdf\n'}
+[0.071381] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/urdf/robot_example.urdf\n'}
+[0.071474] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/config\n'}
+[0.071575] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.071665] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.071730] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.071791] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.071849] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.071907] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.071964] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.072018] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.072071] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.072127] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.072186] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[0.072241] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.072298] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.072355] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.072410] (robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/ROS/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[0.073414] (robot_description) CommandEnded: {'returncode': 0}
+[0.099459] (-) TimerEvent: {}
+[0.112688] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.113433] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+
+
+<!-- Incluido propriedades do material: cores -->
+<xacro:include filename = "$(puma560_description)/urdf/material_color.xacro" />
+
+</robot>

@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=America/Sao_Paulo
 
 # Define user-related arguments to create a non-root user inside the container
-ARG USERNAME=ros_ws
+ARG USERNAME=ros2_ws
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
@@ -17,10 +17,10 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && mkdir /home/$USERNAME/.config && chown $USER_UID:$USER_GID /home/$USERNAME/.config
 
 # Ensure runtime directory is created and accessible
-RUN mkdir -p /tmp/runtime-ros_ws && chown $USER_UID:$USER_GID /tmp/runtime-ros_ws
+RUN mkdir -p /tmp/runtime-ros2_ws && chown $USER_UID:$USER_GID /tmp/runtime-ros2_ws
 
 # Add environment variable setting
-ENV XDG_RUNTIME_DIR=/tmp/runtime-ros_ws
+ENV XDG_RUNTIME_DIR=/tmp/runtime-ros2_ws
 
 # Update the package list, install sudo, configure sudoers for the new user without password prompts, and clean up APT lists
 RUN apt-get update \
@@ -35,6 +35,11 @@ RUN apt-get update \
 
 # Update package list and install various packages for development with ROS, including visualization tools, development libraries, and Python packages
 RUN apt-get update && apt-get install -y \
+    # URDF
+    ros-humble-robot-state-publisher \
+    ros-humble-joint-state-publisher \
+    ros-humble-joint-state-publisher-gui \
+    ros-humble-xacro \
     # # ROS core and utilities
     # python3-rosdep \
     # python3-rosinstall \
