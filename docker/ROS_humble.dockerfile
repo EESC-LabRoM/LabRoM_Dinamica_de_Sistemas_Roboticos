@@ -40,6 +40,7 @@ RUN apt-get update && apt-get install -y \
     ros-humble-joint-state-publisher \
     ros-humble-joint-state-publisher-gui \
     ros-humble-xacro \
+    ros-humble-rviz2 \
     # # ROS core and utilities
     # python3-rosdep \
     # python3-rosinstall \

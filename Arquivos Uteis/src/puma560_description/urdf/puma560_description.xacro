@@ -16,6 +16,7 @@
       </geometry>
     </visual>
   </link>
+  
   <link
     name="base_link">
     <inertial>

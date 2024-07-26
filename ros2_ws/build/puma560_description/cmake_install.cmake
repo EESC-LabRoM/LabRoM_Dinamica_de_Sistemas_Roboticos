@@ -43,6 +43,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE DIRECTORY FILES
+    "/home/ROS/ros2_ws/src/puma560_description/launch"
+    "/home/ROS/ros2_ws/src/puma560_description/urdf"
+    "/home/ROS/ros2_ws/src/puma560_description/config"
+    "/home/ROS/ros2_ws/src/puma560_description/meshes"
+    "/home/ROS/ros2_ws/src/puma560_description/rviz2"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/puma560_description")
 endif()
 

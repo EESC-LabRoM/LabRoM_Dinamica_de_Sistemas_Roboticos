@@ -1,3 +1,14 @@
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/launch/display.launch.py
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/urdf/description.txt
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.xacro
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/urdf/material.xacro
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_4.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_2.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_3.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_1.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/base_link.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_5.STL
+/home/ROS/ros2_ws/install/puma560_description/share/puma560_description/rviz2/puma560_config.rviz
 /home/ROS/ros2_ws/install/puma560_description/share/ament_index/resource_index/package_run_dependencies/puma560_description
 /home/ROS/ros2_ws/install/puma560_description/share/ament_index/resource_index/parent_prefix_path/puma560_description
 /home/ROS/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.sh

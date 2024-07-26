@@ -1,0 +1,15 @@
+Script started on 2024-07-26 18:45:51-03:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="183" LINES="50"]
+$ ls
+build  install	log  my_terminal_output.txt  src
+$ source /opt/ros/humble/setup.bash
+sh: 2: source: not found
+$ ls
+build  install	log  my_terminal_output.txt  src
+$ colcon      rosnode list
+sh: 4: rosnode: not found
+$ ^C
+$ el  exitr
+sh: 5: exitr: not found
+$ exit
+
+Script done on 2024-07-26 18:46:34-03:00 [COMMAND_EXIT_CODE="127"]
