@@ -1,6 +1,6 @@
-/home/ROS/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py
 /home/ROS/ros2_ws/install/robot_description/share/robot_description/launch/test.py
 /home/ROS/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.yaml
+/home/ROS/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py
 /home/ROS/ros2_ws/install/robot_description/share/robot_description/urdf/robot_example.urdf
 /home/ROS/ros2_ws/install/robot_description/share/robot_description/config/config.rviz
 /home/ROS/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
