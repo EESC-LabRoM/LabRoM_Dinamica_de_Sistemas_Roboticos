@@ -41,68 +41,6 @@ RUN apt-get update && apt-get install -y \
     ros-humble-joint-state-publisher-gui \
     ros-humble-xacro \
     ros-humble-rviz2 \
-    # # ROS core and utilities
-    # python3-rosdep \
-    # python3-rosinstall \
-    # python3-rosinstall-generator \
-    # python3-wstool \
-    # python3-catkin-tools \
-    # python3-colcon-common-extensions \
-    # ros-noetic-rqt \
-    # ros-noetic-rqt-common-plugins \
-    # ros-noetic-ros-tutorials \
-    # ros-noetic-rviz \
-    # ros-noetic-teleop-twist-keyboard \
-    # ros-noetic-rqt-multiplot \
-    # # Development tools
-    # wget \
-    # git \
-    # build-essential \
-    # ffmpeg \
-    # # Python packages
-    # python3 \
-    # python3-pip \
-    # python3-numpy \
-    # python3-opencv \
-    # # ROS basic simulation and visualization packages
-    # ros-noetic-gazebo-ros-pkgs \
-    # ros-noetic-hector-gazebo-plugins \
-    # # Sensor and control packages
-    # ros-noetic-usb-cam \
-    # ros-noetic-perception \
-    # ros-noetic-cv-bridge \
-    # ros-noetic-pointcloud-to-laserscan \
-    # ros-noetic-velodyne-description \
-    # ros-noetic-velodyne-gazebo-plugins \
-    # ros-noetic-interactive-markers \
-    # ros-noetic-diff-drive-controller \
-    # ros-noetic-joint-state-controller \
-    # ros-noetic-joint-trajectory-controller \
-    # ros-noetic-joy \
-    # ros-noetic-controller-manager \
-    # ros-noetic-teleop-twist-joy \
-    # ros-noetic-twist-mux \
-    # # Core ROS packages
-    # ros-noetic-roscpp \
-    # ros-noetic-sensor-msgs \
-    # ros-noetic-roslint \
-    # ros-noetic-robot-localization \
-    # ros-noetic-turtlesim \
-    # ros-noetic-tf2-tools \
-    # # Libraries for robotic applications
-    # liburdfdom-dev \
-    # liboctomap-dev \
-    # libassimp-dev \
-    # libboost-all-dev \
-    # libeigen3-dev \
-    # mesa-utils \
-    # libgl1-mesa-dri \
-    # libgl1-mesa-glx \
-    # x11-apps \
-    # intel-media-va-driver-non-free \
-    # libdrm-intel1 \
-    # ros-noetic-urdf \
-    # Clean up APT when done.
     && rm -rf /var/lib/apt/lists/*
 
 # Assuming your ROS workspace in the container is located at /home/ros_ws
