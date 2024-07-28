@@ -1,6 +1,0 @@
-Invoking command in '/home/ROS/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ROS/ros2_ws/src/puma560_description -DCMAKE_INSTALL_PREFIX=/home/ROS/ros2_ws/install/puma560_description
-Invoked command in '/home/ROS/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ROS/ros2_ws/src/puma560_description -DCMAKE_INSTALL_PREFIX=/home/ROS/ros2_ws/install/puma560_description
-Invoking command in '/home/ROS/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ROS/ros2_ws/build/puma560_description -- -j20 -l20
-Invoked command in '/home/ROS/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ROS/ros2_ws/build/puma560_description -- -j20 -l20
-Invoking command in '/home/ROS/ros2_ws/build/puma560_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ROS/ros2_ws/build/puma560_description
-Invoked command in '/home/ROS/ros2_ws/build/puma560_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ROS/ros2_ws/build/puma560_description
