@@ -43,7 +43,8 @@ RUN apt-get update && apt-get install -y \
     ros-humble-rviz2 \
     && rm -rf /var/lib/apt/lists/*
 
-# Assuming your ROS workspace in the container is located at /home/ros_ws
+# Create the directory for the ROS workspace
+RUN mkdir -p /home/$USERNAME/ros2_ws && chown $USER_UID:$USER_GID /home/$USERNAME/ros2_ws
 
 # Copy custom entrypoint script and .bashrc configuration from the host to the container
 COPY config/entrypoint.sh /entrypoint.sh

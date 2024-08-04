@@ -1,8 +1,8 @@
-# Install script for directory: /home/ROS/ros2_ws/src/puma560_description
+# Install script for directory: /home/ros2_ws/ros2_ws/src/puma560_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ROS/ros2_ws/install/puma560_description")
+  set(CMAKE_INSTALL_PREFIX "/home/ros2_ws/ros2_ws/install/puma560_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,20 +44,20 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE DIRECTORY FILES
-    "/home/ROS/ros2_ws/src/puma560_description/launch"
-    "/home/ROS/ros2_ws/src/puma560_description/urdf"
-    "/home/ROS/ros2_ws/src/puma560_description/config"
-    "/home/ROS/ros2_ws/src/puma560_description/meshes"
-    "/home/ROS/ros2_ws/src/puma560_description/rviz2"
+    "/home/ros2_ws/ros2_ws/src/puma560_description/launch"
+    "/home/ros2_ws/ros2_ws/src/puma560_description/urdf"
+    "/home/ros2_ws/ros2_ws/src/puma560_description/config"
+    "/home/ros2_ws/ros2_ws/src/puma560_description/meshes"
+    "/home/ros2_ws/ros2_ws/src/puma560_description/rviz2"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/puma560_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/puma560_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/puma560_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/puma560_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description/environment" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description/environment" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,42 +73,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description/environment" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description/environment" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/packages/puma560_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_index/share/ament_index/resource_index/packages/puma560_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description/cmake" TYPE FILE FILES
-    "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_core/puma560_descriptionConfig.cmake"
-    "/home/ROS/ros2_ws/build/puma560_description/ament_cmake_core/puma560_descriptionConfig-version.cmake"
+    "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_core/puma560_descriptionConfig.cmake"
+    "/home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_core/puma560_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ROS/ros2_ws/src/puma560_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/puma560_description" TYPE FILE FILES "/home/ros2_ws/ros2_ws/src/puma560_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -119,5 +119,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ROS/ros2_ws/build/puma560_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ros2_ws/ros2_ws/build/puma560_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

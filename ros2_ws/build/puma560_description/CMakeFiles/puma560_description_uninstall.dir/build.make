@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ROS/ros2_ws/src/puma560_description
+CMAKE_SOURCE_DIR = /home/ros2_ws/ros2_ws/src/puma560_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ROS/ros2_ws/build/puma560_description
+CMAKE_BINARY_DIR = /home/ros2_ws/ros2_ws/build/puma560_description
 
 # Utility rule file for puma560_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/puma560_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/puma560_description_uninstall.dir/progress.make
 
 CMakeFiles/puma560_description_uninstall:
-	/usr/bin/cmake -P /home/ROS/ros2_ws/build/puma560_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ros2_ws/ros2_ws/build/puma560_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 puma560_description_uninstall: CMakeFiles/puma560_description_uninstall
 puma560_description_uninstall: CMakeFiles/puma560_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/puma560_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/puma560_description_uninstall.dir/clean
 
 CMakeFiles/puma560_description_uninstall.dir/depend:
-	cd /home/ROS/ros2_ws/build/puma560_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ROS/ros2_ws/src/puma560_description /home/ROS/ros2_ws/src/puma560_description /home/ROS/ros2_ws/build/puma560_description /home/ROS/ros2_ws/build/puma560_description /home/ROS/ros2_ws/build/puma560_description/CMakeFiles/puma560_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros2_ws/ros2_ws/build/puma560_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros2_ws/ros2_ws/src/puma560_description /home/ros2_ws/ros2_ws/src/puma560_description /home/ros2_ws/ros2_ws/build/puma560_description /home/ros2_ws/ros2_ws/build/puma560_description /home/ros2_ws/ros2_ws/build/puma560_description/CMakeFiles/puma560_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/puma560_description_uninstall.dir/depend
 
