@@ -4,15 +4,6 @@ echo "Você acessou a pasta da Aula: $PWD"
     
 echo "Criando o Container"
 
-# Automatically detects an NVIDIA GPU and attempts to utilize it.
-if [ -z "$(lspci | grep NVIDIA)" ]; then
-    USE_GPUS=""
-    echo "NVIDIA's GPU Não foi detectada."
-else
-    USE_GPUS="--gpus all"
-    echo "NVIDIA's GPU foi detectada. Ativando '--gpus all' flag."
-fi
-
 # Allow local connections to X server
 xhost +local:docker
 
@@ -38,15 +29,12 @@ docker run -it --rm \
     $USE_GPUS \
     --name ros_humble \
     --user $(id -u):$(id -g) \
+    -e HOME=/home/ros2_ws \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
     -e XDG_RUNTIME_DIR=/tmp/runtime-ros2_ws \
-    --gpus all \
     --network=host \
     --ipc=host \
-    --privileged \
-    --device /dev/video0 \
-    -v /dev/video0:/dev/video0 \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
     -v "$PWD/ros2_ws:/home/ros2_ws:rw" \
     --workdir /home/ros2_ws \
