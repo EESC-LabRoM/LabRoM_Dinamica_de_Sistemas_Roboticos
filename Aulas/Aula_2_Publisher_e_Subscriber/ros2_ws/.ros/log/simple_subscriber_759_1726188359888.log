@@ -1,0 +1,11 @@
+[INFO] [1726188360.395511389] [rclcpp]: I heard: 'Hello, ROS 2: 80'
+[INFO] [1726188360.895431002] [rclcpp]: I heard: 'Hello, ROS 2: 81'
+[INFO] [1726188361.395590611] [rclcpp]: I heard: 'Hello, ROS 2: 82'
+[INFO] [1726188361.895458199] [rclcpp]: I heard: 'Hello, ROS 2: 83'
+[INFO] [1726188362.395347766] [rclcpp]: I heard: 'Hello, ROS 2: 84'
+[INFO] [1726188362.895207558] [rclcpp]: I heard: 'Hello, ROS 2: 85'
+[INFO] [1726188363.395313853] [rclcpp]: I heard: 'Hello, ROS 2: 86'
+[INFO] [1726188363.895213456] [rclcpp]: I heard: 'Hello, ROS 2: 87'
+[INFO] [1726188364.395633533] [rclcpp]: I heard: 'Hello, ROS 2: 88'
+[INFO] [1726188364.895624444] [rclcpp]: I heard: 'Hello, ROS 2: 89'
+[INFO] [1726188365.904110337] [rclcpp]: signal_handler(signum=2)
