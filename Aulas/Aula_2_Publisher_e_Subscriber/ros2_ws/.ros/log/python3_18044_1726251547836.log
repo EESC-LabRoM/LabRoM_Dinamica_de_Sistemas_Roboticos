@@ -1,0 +1,3 @@
+[ERROR] [1726251567.999699762] [get_message_class]: Malformed msg message_type: turtlesim/action/RotateAbsolute_FeedbackMessage
+[ERROR] [1726251604.540875320] [get_message_class]: Malformed msg message_type: turtlesim/action/RotateAbsolute_FeedbackMessage
+[INFO] [1726251692.830220331] [rclcpp]: signal_handler(signum=2)

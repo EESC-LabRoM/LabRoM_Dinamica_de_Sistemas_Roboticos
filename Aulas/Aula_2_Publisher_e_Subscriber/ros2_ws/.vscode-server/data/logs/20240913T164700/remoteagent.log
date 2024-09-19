@@ -1,0 +1,28 @@
+2024-09-13 16:47:00.729 [info] 
+
+
+
+
+2024-09-13 16:47:00.733 [info] Extension host agent started.
+2024-09-13 16:47:00.750 [debug] No uninstalled extensions found.
+2024-09-13 16:47:00.751 [info] [127.0.0.1][f935961d][ManagementConnection] New connection established.
+2024-09-13 16:47:00.762 [debug] ComputeTargetPlatform: linux-x64
+2024-09-13 16:47:00.768 [debug] Using cached extensions scan result system file:///home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions
+2024-09-13 16:47:00.827 [info] [127.0.0.1][c5af986b][ExtensionHostConnection] New connection established.
+2024-09-13 16:47:00.829 [info] [127.0.0.1][c5af986b][ExtensionHostConnection] <334> Launched Extension Host Process.
+2024-09-13 16:47:00.943 [debug] Writing language packs {}
+2024-09-13 16:47:00.954 [info] Installing extensions...
+2024-09-13 16:47:00.959 [debug] Using cached extensions scan result system file:///home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions
+2024-09-13 16:47:00.962 [debug] ComputeTargetPlatform: linux-x64
+2024-09-13 16:47:00.984 [info] Log level changed to info
+2024-09-13 16:47:03.338 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2024-09-13 16:47:03.338 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-09-13 16:47:03.514 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-13 16:47:06.844 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-pt-br: Success. Executed: true. Duration: 1817ms.
+2024-09-13 16:47:06.872 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.93.2024091109: ms-ceintl.vscode-language-pack-pt-br
+2024-09-13 16:47:06.882 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.93.2024091109
+2024-09-13 16:47:06.886 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-09-13 16:47:06.892 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-09-13 16:47:06.892 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.93.2024091109 was successfully installed.
+2024-09-13 16:47:08.457 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/294/task/309/net' failed: No such file or directory (EUNKNOWN) (path: /)
+2024-09-13 16:47:08.458 [error] [File Watcher (universal)] inotify_add_watch on '//proc/294/task/309/net' failed: No such file or directory

@@ -1,0 +1,2 @@
+2024-09-13 14:50:37.413 [error] node #2: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 
+2024-09-13 14:50:37.423 [error] node #3: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 

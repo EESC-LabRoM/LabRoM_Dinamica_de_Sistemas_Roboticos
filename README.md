@@ -1,4 +1,5 @@
 # Dinâmica Sistemas Roboticos
+Alteração
 
 Aula 1 - [SO, o Docker e um pouco mais! ](https://thallys-oliveira.notion.site/1-SO-o-Docker-e-um-pouco-mais-a3b2f33a79ac492c9a7f046272fcc0f1?pvs=4)
 

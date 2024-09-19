@@ -1,0 +1,46 @@
+2024-09-13 14:50:36.754 [info] 
+
+
+
+
+2024-09-13 14:50:36.765 [info] Installing extensions...
+2024-09-13 14:50:36.768 [info] Extension host agent started.
+2024-09-13 14:50:36.810 [debug] Error while reading the extension cache file: /home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-09-13 14:50:36.811 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ros2_ws/.vscode-server/extensions
+2024-09-13 14:50:36.825 [info] [127.0.0.1][36523cc6][ManagementConnection] New connection established.
+2024-09-13 14:50:36.855 [info] Log level changed to info
+2024-09-13 14:50:36.995 [info] Installing extensions...
+2024-09-13 14:50:37.002 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ros2_ws/.vscode-server/extensions
+2024-09-13 14:50:37.114 [info] [127.0.0.1][4299f5c3][ExtensionHostConnection] New connection established.
+2024-09-13 14:50:37.134 [info] [127.0.0.1][4299f5c3][ExtensionHostConnection] <387> Launched Extension Host Process.
+2024-09-13 14:50:37.417 [error] Error while installing extensions: AggregateError [ETIMEDOUT]: 
+2024-09-13 14:50:37.418 [error] Failed: AggregateError [ETIMEDOUT]: 
+    at Y.E (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:120176)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at listOnTimeout (node:internal/timers:540:9)
+    at process.processTimers (node:internal/timers:514:7)
+    at async Y.C (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:116903)
+    at async Y.z (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:113405)
+    at async Y.getExtensions (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:112507)
+    at async a.j (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:153:1487)
+    at async a.g (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:152:11354)
+    at async a.installExtensions (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:152:9860)
+2024-09-13 14:50:37.424 [error] Error while installing extensions: AggregateError [ETIMEDOUT]: 
+2024-09-13 14:50:37.424 [error] Failed: AggregateError [ETIMEDOUT]: 
+    at Y.E (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:120176)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processTimers (node:internal/timers:511:9)
+    at async Y.C (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:116903)
+    at async Y.z (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:113405)
+    at async Y.getExtensions (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:180:112507)
+    at async a.j (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:153:1487)
+    at async a.g (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:152:11354)
+    at async a.installExtensions (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:152:9860)
+    at async g.q (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:188:18614)
+    at async g.k (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:188:17424)
+    at async g.scanExtensions (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:188:17279)
+    at async a.call (/home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/out/vs/server/node/server.main.js:188:20388)
+2024-09-13 14:50:54.228 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/332/ns' failed: No such file or directory (EUNKNOWN) (path: /)
+2024-09-13 14:50:54.228 [error] [File Watcher (universal)] inotify_add_watch on '//proc/332/ns' failed: No such file or directory
