@@ -1,5 +1,0 @@
-[INFO] [1726192528.374902536] [simple_publisher]: Publishing: 'Hello, ROS 2: 0'
-[INFO] [1726192528.875036222] [simple_publisher]: Publishing: 'Hello, ROS 2: 1'
-[INFO] [1726192529.375012892] [simple_publisher]: Publishing: 'Hello, ROS 2: 2'
-[INFO] [1726192529.875177441] [simple_publisher]: Publishing: 'Hello, ROS 2: 3'
-[INFO] [1726192529.937511386] [rclcpp]: signal_handler(signum=2)
