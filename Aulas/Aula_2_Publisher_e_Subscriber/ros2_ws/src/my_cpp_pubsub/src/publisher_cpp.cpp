@@ -1,5 +1,7 @@
 #include <chrono>
+#include <functional>
 #include <memory>
+#include <string>
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
@@ -10,10 +12,10 @@ int main(int argc, char * argv[])
   rclcpp::init(argc, argv);
 
   // Cria um nó ROS
-  auto node = rclcpp::Node::make_shared("simple_publisher");
+  auto node = rclcpp::Node::make_shared("Publisher_cpp");
 
   // Cria o publisher que envia mensagens no tópico "topic"
-  auto publisher = node->create_publisher<std_msgs::msg::String>("topic", 10);
+  auto publisher = node->create_publisher<std_msgs::msg::String>("topic_exemplo", 10);
 
   // Define a frequência de publicação (500ms)
   rclcpp::WallRate loop_rate(500ms);

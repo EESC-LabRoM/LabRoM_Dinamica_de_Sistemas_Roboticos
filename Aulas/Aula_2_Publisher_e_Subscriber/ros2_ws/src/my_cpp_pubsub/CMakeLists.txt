@@ -11,17 +11,17 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
 # Adiciona o executável para o Publisher
-add_executable(simple_publisher src/simple_publisher.cpp)
-ament_target_dependencies(simple_publisher rclcpp std_msgs)
+add_executable(publisher_cpp src/publisher_cpp.cpp)
+ament_target_dependencies(publisher_cpp rclcpp std_msgs)
 
 # Adiciona o executável para o Subscriber
-add_executable(simple_subscriber src/simple_subscriber.cpp)
-ament_target_dependencies(simple_subscriber rclcpp std_msgs)
+add_executable(subscriber_cpp src/subscriber_cpp.cpp)
+ament_target_dependencies(subscriber_cpp rclcpp std_msgs)
 
 # Instala os binários
 install(TARGETS
-  simple_publisher
-  simple_subscriber
+  publisher_cpp
+  subscriber_cpp
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
