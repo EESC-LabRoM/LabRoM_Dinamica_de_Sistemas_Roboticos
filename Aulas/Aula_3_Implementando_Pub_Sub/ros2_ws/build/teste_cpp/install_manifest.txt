@@ -1,0 +1,15 @@
+/home/ros2_ws/install/teste_cpp/share/ament_index/resource_index/package_run_dependencies/teste_cpp
+/home/ros2_ws/install/teste_cpp/share/ament_index/resource_index/parent_prefix_path/teste_cpp
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/environment/ament_prefix_path.sh
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/environment/ament_prefix_path.dsv
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/environment/path.sh
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/environment/path.dsv
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/local_setup.bash
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/local_setup.sh
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/local_setup.zsh
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/local_setup.dsv
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/package.dsv
+/home/ros2_ws/install/teste_cpp/share/ament_index/resource_index/packages/teste_cpp
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/cmake/teste_cppConfig.cmake
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/cmake/teste_cppConfig-version.cmake
+/home/ros2_ws/install/teste_cpp/share/teste_cpp/package.xml

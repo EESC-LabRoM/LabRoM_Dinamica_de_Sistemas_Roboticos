@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/ros2_ws/build/meu_pacote_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/meu_pacote_cpp -- -j20 -l20
+[0.034s] Invoked command in '/home/ros2_ws/build/meu_pacote_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/meu_pacote_cpp -- -j20 -l20
+[0.052s] Invoking command in '/home/ros2_ws/build/meu_pacote_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/meu_pacote_cpp
+[0.057s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/package_run_dependencies/meu_pacote_cpp
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/parent_prefix_path/meu_pacote_cpp
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/path.sh
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/path.dsv
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.bash
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.sh
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.zsh
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.dsv
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/package.dsv
+[0.058s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/packages/meu_pacote_cpp
+[0.059s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/cmake/meu_pacote_cppConfig.cmake
+[0.059s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/cmake/meu_pacote_cppConfig-version.cmake
+[0.059s] -- Up-to-date: /home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/package.xml
+[0.059s] Invoked command in '/home/ros2_ws/build/meu_pacote_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/meu_pacote_cpp

@@ -1,0 +1,15 @@
+2024-09-20 17:27:21.974 [info] 
+
+
+
+
+2024-09-20 17:27:21.984 [info] Extension host agent started.
+2024-09-20 17:27:22.022 [debug] No uninstalled extensions found.
+2024-09-20 17:27:22.094 [info] [127.0.0.1][2b482260][ManagementConnection] New connection established.
+2024-09-20 17:27:22.115 [info] Log level changed to info
+2024-09-20 17:27:22.304 [info] [127.0.0.1][f81e028a][ExtensionHostConnection] New connection established.
+2024-09-20 17:27:22.313 [info] [127.0.0.1][f81e028a][ExtensionHostConnection] <381> Launched Extension Host Process.
+2024-09-20 17:27:22.355 [info] [127.0.0.1][f81e028a][ExtensionHostConnection] <381><stderr> Error reading NLS messages file /home/ros2_ws/.vscode-server/data/clp/75963df59864247ecfa9be810fa1dc8e.pt-br/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ros2_ws/.vscode-server/data/clp/75963df59864247ecfa9be810fa1dc8e.pt-br/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/nls.messages.json'
+
+2024-09-20 17:27:40.155 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/317/task/330/ns' failed: No such file or directory (EUNKNOWN) (path: /)
+2024-09-20 17:27:40.155 [error] [File Watcher (universal)] inotify_add_watch on '//proc/317/task/330/ns' failed: No such file or directory

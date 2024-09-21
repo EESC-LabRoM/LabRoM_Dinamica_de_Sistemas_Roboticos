@@ -1,0 +1,15 @@
+/home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/package_run_dependencies/meu_pacote_cpp
+/home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/parent_prefix_path/meu_pacote_cpp
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/ament_prefix_path.sh
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/ament_prefix_path.dsv
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/path.sh
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/environment/path.dsv
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.bash
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.sh
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.zsh
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/local_setup.dsv
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/package.dsv
+/home/ros2_ws/install/meu_pacote_cpp/share/ament_index/resource_index/packages/meu_pacote_cpp
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/cmake/meu_pacote_cppConfig.cmake
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/cmake/meu_pacote_cppConfig-version.cmake
+/home/ros2_ws/install/meu_pacote_cpp/share/meu_pacote_cpp/package.xml

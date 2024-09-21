@@ -1,0 +1,18 @@
+2024-09-20 17:06:33.870 [info] 
+
+
+
+
+2024-09-20 17:06:33.881 [info] Extension host agent started.
+2024-09-20 17:06:33.923 [debug] No uninstalled extensions found.
+2024-09-20 17:06:33.966 [info] [127.0.0.1][8477665a][ManagementConnection] New connection established.
+2024-09-20 17:06:33.986 [info] Log level changed to info
+2024-09-20 17:06:34.179 [info] [127.0.0.1][cbe3ae0b][ExtensionHostConnection] New connection established.
+2024-09-20 17:06:34.205 [info] [127.0.0.1][cbe3ae0b][ExtensionHostConnection] <700> Launched Extension Host Process.
+2024-09-20 17:06:42.821 [info] [127.0.0.1][8477665a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-20 17:06:42.861 [info] [127.0.0.1][cbe3ae0b][ExtensionHostConnection] <700> Extension Host Process exited with code: 0, signal: null.
+2024-09-20 17:06:45.508 [info] [127.0.0.1][a5d419ce][ManagementConnection] New connection established.
+2024-09-20 17:06:45.745 [info] [127.0.0.1][499d94b3][ExtensionHostConnection] New connection established.
+2024-09-20 17:06:45.750 [info] [127.0.0.1][499d94b3][ExtensionHostConnection] <1156> Launched Extension Host Process.
+2024-09-20 17:06:46.165 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /)
+2024-09-20 17:06:46.165 [error] [File Watcher (universal)] No such file or directory

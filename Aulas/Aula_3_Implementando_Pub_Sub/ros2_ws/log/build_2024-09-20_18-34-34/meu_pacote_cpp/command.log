@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/meu_pacote_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/meu_pacote_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/meu_pacote_cpp
+Invoked command in '/home/ros2_ws/build/meu_pacote_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/meu_pacote_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/meu_pacote_cpp
+Invoking command in '/home/ros2_ws/build/meu_pacote_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/meu_pacote_cpp -- -j20 -l20
+Invoked command in '/home/ros2_ws/build/meu_pacote_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/meu_pacote_cpp -- -j20 -l20
+Invoking command in '/home/ros2_ws/build/meu_pacote_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/meu_pacote_cpp
+Invoked command in '/home/ros2_ws/build/meu_pacote_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/meu_pacote_cpp

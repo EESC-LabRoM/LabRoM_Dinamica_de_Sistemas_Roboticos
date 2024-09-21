@@ -1,0 +1,5 @@
+[user]
+	name = Thallys Oliveira
+	email = thallys.smo@gmail.com
+[credential]
+	helper = "!f() { /home/ros2_ws/.vscode-server/bin/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node /tmp/vscode-remote-containers-92d4c73c-c572-438a-b271-698f9a4a883b.js git-credential-helper $*; }; f"

@@ -1,0 +1,17 @@
+2024-09-20 17:06:35.213 [info] Extension host with pid 700 started
+2024-09-20 17:06:35.213 [error] Error: EEXIST: file already exists, open '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock'
+2024-09-20 17:06:35.217 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-09-20 17:06:35.223 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': The pid 9778 appears to be gone.
+2024-09-20 17:06:35.223 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Deleting a stale lock.
+2024-09-20 17:06:35.237 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Lock acquired.
+2024-09-20 17:06:35.384 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-20 17:06:35.385 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2024-09-20 17:06:35.587 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-20 17:06:35.749 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-20 17:06:35.750 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-20 17:06:36.115 [info] Eager extensions activated
+2024-09-20 17:06:36.115 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-20 17:06:36.116 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-20 17:06:42.809 [info] Extension host terminating: received terminate message from renderer
+2024-09-20 17:06:42.809 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-20 17:06:42.843 [info] Extension host with pid 700 exiting with code 0

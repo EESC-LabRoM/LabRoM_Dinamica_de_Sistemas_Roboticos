@@ -1,0 +1,2 @@
+2024-09-20 15:09:46.407 [error] node #4: https://ms-ceintl.gallerycdn.vsassets.io/extensions/ms-ceintl/vscode-language-pack-pt-br/1.94.2024091809/1726650705128/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
+2024-09-20 15:09:46.412 [error] node #5: https://ms-ceintl.gallerycdn.vsassets.io/extensions/ms-ceintl/vscode-language-pack-pt-br/1.94.2024091809/1726650705128/Microsoft.VisualStudio.Code.Manifest - error GET AggregateError [ETIMEDOUT]: 
