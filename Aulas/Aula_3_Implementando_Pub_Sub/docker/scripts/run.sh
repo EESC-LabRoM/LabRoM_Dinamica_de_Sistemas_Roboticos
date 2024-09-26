@@ -28,7 +28,6 @@ xhost +local:docker
 docker run -it --rm \
     $USE_GPUS \
     --name ros_humble \
-    --user $(id -u):$(id -g) \
     -e HOME=/home/ros2_ws \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
