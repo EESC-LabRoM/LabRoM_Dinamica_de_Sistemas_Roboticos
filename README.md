@@ -1,5 +1,6 @@
 # Dinâmica Sistemas Roboticos
-Alteração
+
+Aulas em desenvolvimento:
 
 Aula 1 - [SO, o Docker e um pouco mais! ](https://thallys-oliveira.notion.site/1-SO-o-Docker-e-um-pouco-mais-a3b2f33a79ac492c9a7f046272fcc0f1?pvs=4)
 
@@ -12,3 +13,5 @@ Aula 4 - [ROS 2: Criando e Comunicando Nós - Publihser/Subscriber](https://thal
 Aula 5 - [ROS 2: Parametrização do URDF](https://thallys-oliveira.notion.site/5-ROS-2-Parametriza-o-do-URDF-806bd6ae059c424cb8b73578dd724323?pvs=4)
 
 Aula 6 - [ROS 2: Parametrização com Xacro e Gazebo ](https://thallys-oliveira.notion.site/6-ROS-2-Parametriza-o-com-Xacro-e-Gazebo-670fecb099094c099512779502dc2d76?pvs=4)
+
+
