@@ -36,5 +36,6 @@ docker run -it --rm \
     --ipc=host \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
     -v "$PWD/ros2_ws:/home/ros2_ws:rw" \
+    --device /dev/dri:/dev/dri \
     --workdir /home/ros2_ws \
     ros2_ws:humble
