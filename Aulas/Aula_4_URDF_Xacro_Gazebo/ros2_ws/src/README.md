@@ -1,9 +1,4 @@
-##
+## Dica
 
-Entre dentro da pasta da Aula e execute o comando abaixo
+Acesse o documentaçã0 da implementação do Puma  560 na pasta **Puma_560-Exemplo** completa e tente reproduzir. 
 
-```bash
-
-docker/scripts/build.sh
-
-```
