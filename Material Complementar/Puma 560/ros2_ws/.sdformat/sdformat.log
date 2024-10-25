@@ -1,0 +1,22 @@
+Dbg [parser.cc:954] Converting a deprecated source[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:914] No <sdf> element in file[<data-string>]
+Dbg [parser_urdf.cc:2893] creating collision for link [base_link] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [base_link] visual []
+Dbg [parser_urdf.cc:2893] creating collision for link [link_1] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [link_1] visual []
+Dbg [parser_urdf.cc:2893] creating collision for link [link_2] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [link_2] visual []
+Dbg [parser_urdf.cc:2893] creating collision for link [link_3] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [link_3] visual []
+Dbg [parser_urdf.cc:2893] creating collision for link [link_4] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [link_4] visual []
+Dbg [parser_urdf.cc:2893] creating collision for link [link_5] collision []
+Dbg [parser_urdf.cc:2938] creating visual for link [link_5] visual []
+Dbg [parser.cc:954] Converting a deprecated source[<urdf-string>].
+Dbg [Converter.cc:106] Version[1.7] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:843] Parsing from urdf.

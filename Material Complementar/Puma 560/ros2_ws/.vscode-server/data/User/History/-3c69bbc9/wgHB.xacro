@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Definindo Cores -->
+
+    <!-- Cor Vermelha -->
+    <material name="red">
+        <color rgba="0.8 0 0 1"/>
+    </material>
+
+    <!-- Cor Verde -->
+    <material name="green">
+        <color rgba="0 0.8 0 1"/>
+    </material>
+
+    <!-- Cor Azul -->
+    <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+    </material>
+
+    <!-- Cor Amarela -->
+    <material name="yellow">
+        <color rgba="1 1 0 1"/>
+    </material>
+
+    <!-- Cor Ciano -->
+    <material name="cyan">
+        <color rgba="0 1 1 1"/>
+    </material>
+
+    <!-- Definição dos parametros do modelo -->
+
+    
+
+   <!-- Incluido propriedades do material: cores -->
+   <!-- <xacro:include filename = "$(puma560_description)/urdf/material_color.xacro" /> -->
+
+   <!-- Puma 560 description.--> 
+
+    <!-- Link: world-->
+    <link name="world">
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>  
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="green"/>
+        </visual>    
+    </link>
+
+    <!-- Joint 0: world para base_link-->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.23" 
+                rpy="0 0 0"/>        
+    </joint>
+
+    <link name="base_link">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071"
+                iyz="-0.022162"
+                izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/base_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="0 0 0" />
+            <material name="green"/>
+        </visual>
+    </link>
+
+    <!-- Joint 1: world para base_link-->
+    <joint name="joint_1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link_1"/>
+        <origin xyz="-0.12618 0 0.31169" 
+                rpy="-1.5708 0 1.3815" />
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="0.5" lower="-3.141593" upper="3.141593"/>        
+    </joint>
+
+    <!-- Link 1: link_1 -->
+    <link name="link_1">
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_1.STL"/>
+            </geometry>
+            <origin xyz="0 0 0"
+                    rpy="0 0 0" />
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+    <!-- Joint 2: link_1 para link_2-->
+    <joint name="joint_2" type="revolute">
+        <parent link="link_1"/>
+        <child link="link_2"/>
+        <origin xyz="-0.14641 -0.08128 0"
+                rpy="3.0346 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 2: link_2 -->
+    <link name="link_2">
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_2.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="0 0 0" />
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <!-- Joint 3: link_2 para link_3-->
+    <joint name="joint_3" type="revolute">
+        <parent link="link_2"/>
+        <child link="link_3"/>
+        <origin xyz="0 0 0.4318"
+                rpy="-2.6879 0 -3.1416" />
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 3: link_3 -->
+    <link name="link_3">
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_3.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="0 0 0" />
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <!-- Joint 4: link_3 para link_4-->
+    <joint name="joint_4" type="revolute">
+        <parent link="link_3"/>
+        <child link="link_4"/>
+        <origin xyz="-0.016872 -0.39296 0" 
+                rpy="3.1416 -1.2686 3.1416"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 4: link_4 -->
+    <link name="link_4">
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_4.STL"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="yellow"/>
+        </visual>
+    </link>
+
+    <!-- Joint 5: link_4 para link_5-->
+    <joint name="joint_5" type="revolute">
+        <parent link="link_4"/>
+        <child link="link_5"/>
+        <origin xyz="0 -0.039129 0" 
+                rpy="1.4855 1.5708 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 5: link_5 -->
+    <link name="link_5">
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_5.STL"/>
+            </geometry>
+            <origin xyz="0 0 0"
+                    rpy="0 0 0" />
+            <material name="yellow"/>
+        </visual>
+    </link>    
+</robot>

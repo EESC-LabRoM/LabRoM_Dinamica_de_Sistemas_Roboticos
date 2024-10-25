@@ -1,0 +1,7 @@
+1729822456.2426498 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-14-16-242235-thallys-25836
+1729822456.2427399 [INFO] [launch]: Default logging verbosity is set to INFO
+1729822456.3162811 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: error: Undefined parameters [effort,velocity,lower,upper]
+when instantiating macro: joint_limits (/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro)
+in file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

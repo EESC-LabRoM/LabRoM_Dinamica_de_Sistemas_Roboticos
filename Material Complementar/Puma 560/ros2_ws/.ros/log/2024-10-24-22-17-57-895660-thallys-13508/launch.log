@@ -1,0 +1,5 @@
+1729819077.8961136 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-22-17-57-895660-thallys-13508
+1729819077.8961906 [INFO] [launch]: Default logging verbosity is set to INFO
+1729819077.9120064 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - ModuleNotFoundError: No module named 'launch_ros.parameter_description'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

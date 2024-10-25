@@ -1,0 +1,13 @@
+1729823159.4637854 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-25-59-463403-thallys-28474
+1729823159.4638636 [INFO] [launch]: Default logging verbosity is set to INFO
+1729823159.5381670 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: warning: xacro:include: unknown attribute(s): name
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+XML parsing error: syntax error: line 1, column 0
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/config/link2_inertia.yaml
+included from: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

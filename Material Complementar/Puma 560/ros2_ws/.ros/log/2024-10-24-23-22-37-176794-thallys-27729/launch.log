@@ -1,0 +1,11 @@
+1729822957.1771798 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-22-37-176794-thallys-27729
+1729822957.1772513 [INFO] [launch]: Default logging verbosity is set to INFO
+1729822957.2543576 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: XML parsing error: syntax error: line 1, column 0
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/config/link2_inertia.yaml
+included from: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+
+Check that:
+ - Your XML is well-formed
+ - You have the xacro xmlns declaration: xmlns:xacro="http://www.ros.org/wiki/xacro"
+

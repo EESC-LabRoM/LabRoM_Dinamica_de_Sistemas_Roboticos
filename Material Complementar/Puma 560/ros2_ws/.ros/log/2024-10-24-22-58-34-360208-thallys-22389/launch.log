@@ -1,0 +1,6 @@
+1729821514.3606331 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-22-58-34-360208-thallys-22389
+1729821514.3607185 [INFO] [launch]: Default logging verbosity is set to INFO
+1729821514.4391372 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: error: package not found: "package 'my_robot_package' not found, searching: ['/home/ros2_ws/install/robot_description', '/home/ros2_ws/install/puma560_description', '/opt/ros/humble']"
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

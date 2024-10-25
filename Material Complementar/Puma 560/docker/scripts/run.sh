@@ -28,6 +28,7 @@ xhost +local:docker
 docker run -it --rm \
     $USE_GPUS \
     --name ros_humble \
+    --user ros2_ws \
     -e HOME=/home/ros2_ws \
     -e DISPLAY=$DISPLAY \
     -e QT_X11_NO_MITSHM=1 \
@@ -36,5 +37,7 @@ docker run -it --rm \
     --ipc=host \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
     -v "$PWD/ros2_ws:/home/ros2_ws:rw" \
+    --device /dev/video0:/dev/video0 \
+    --device /dev/dri:/dev/dri \
     --workdir /home/ros2_ws \
     ros2_ws:humble

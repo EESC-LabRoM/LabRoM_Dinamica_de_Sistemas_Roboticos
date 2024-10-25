@@ -36,6 +36,7 @@ ENV XDG_RUNTIME_DIR=/tmp/runtime-ros2_ws
 
 # Atualiza a lista de pacotes e instala várias ferramentas de desenvolvimento para ROS, incluindo ferramentas de visualização e bibliotecas de desenvolvimento
 RUN apt-get update && apt-get install -y \
+    
     git-all ripgrep \
     # URDF (Universal Robot Description Format)
     ros-humble-robot-state-publisher \

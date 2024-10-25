@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Definindo Cores -->
+
+    <xacro:include filename="$(find puma560_description)/urdf/cores.xacro" />
+
+    <!-- Definição dos parametros do modelo: Juntas -->
+
+    <xacro:property name="lower"    value="-3.1416" />
+    <xacro:property name="upper"    value="3.1416" />
+    <xacro:property name="effort"   value="1000" />
+    <xacro:property name="velocity" value="0.5" />
+
+    <xacro:macro name="joint_limits">
+        <limit
+            effort="${effort}" 
+            velocity="${velocity}" 
+            lower="${lower}" 
+            upper="${upper}" />
+    </xacro:macro>
+
+    <!-- Carregar arquivo YAML -->
+    <xacro:property name="yaml_file" value="$(find puma560_description)/config/link2_inertia.yaml" />
+    <xacro:property name="link2_inertia" value="${xacro.load_yaml(yaml_file)}" />
+
+    <!-- Puma 560 description.--> 
+
+    <!-- Link: world-->
+    <link name="world">
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>  
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="green"/>
+        </visual>    
+    </link>
+
+    <!-- Joint 0: world para base_link-->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.23" 
+                rpy="0 0 0"/>        
+    </joint>
+
+    <link name="base_link">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/base_link.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="0 0 0" />
+            <material name="green"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://puma560_description/meshes/base_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 1: world para base_link-->
+    <joint name="joint_1" type="revolute">
+        <parent link="base_link"/>
+        <child link="link_1"/>
+        <origin xyz="-0.12618 0 0.31169" 
+                rpy="-1.5708 0 1.3815" />
+        <axis xyz="0 1 0"/>
+        <limit 
+            effort="${effort}" 
+            velocity="${velocity}" 
+            lower="${lower}" 
+            upper="${upper}"/>        
+    </joint>
+
+    <!-- Link 1: link_1 -->
+    <link name="link_1">
+         <inertial>
+            <origin
+                xyz="-0.022505 -0.07849 -3.2256E-07"
+                rpy="0 0 0" />
+            <mass
+                value="4.4341" />
+            <inertia
+                ixx="0.013316" ixy="-0.00027859" ixz="-1.214E-07" 
+                iyy="0.027164" iyz="2.346E-07"   izz="0.027328" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_1.STL"/>
+            </geometry>
+            <origin xyz="0 0 0"
+                    rpy="0 0 0" />
+            <material name="yellow"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://puma560_description/meshes/link_1.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 2: link_1 para link_2-->
+    <joint name="joint_2" type="revolute">
+        <parent link="link_1"/>
+        <child link="link_2"/>
+        <origin xyz="-0.14641 -0.08128 0"
+                rpy="3.0346 0 0" />
+        <axis xyz="1 0 0"/>
+        <!-- Utilizando o macro para os limites da junta sem passar parâmetros -->
+        <xacro:joint_limits />       
+    </joint>
+
+     <!-- Link 2: link_2 -->
+    <link name="link_2">
+        <inertial>
+            <origin xyz="${link2_inertia['origin']['xyz']}" rpy="${link2_inertia['origin']['rpy']}" />
+            <mass value="${link2_inertia['mass']}" />
+            <inertia
+                ixx="${link2_inertia['inertia']['ixx']}"
+                ixy="${link2_inertia['inertia']['ixy']}"
+                ixz="${link2_inertia['inertia']['ixz']}"
+                iyy="${link2_inertia['inertia']['iyy']}"
+                iyz="${link2_inertia['inertia']['iyz']}"
+                izz="${link2_inertia['inertia']['izz']}" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_2.STL" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_2.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 3: link_2 para link_3-->
+    <joint name="joint_3" type="revolute">
+        <parent link="link_2"/>
+        <child link="link_3"/>
+        <origin xyz="0 0 0.4318"
+                rpy="-2.6879 0 -3.1416" />
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 3: link_3 -->
+    <link name="link_3">
+        <inertial>
+        <origin
+            xyz="-0.01687 -0.088774 -1.1788E-06"
+            rpy="0 0 0" />
+        <mass
+            value="4.6025" />
+        <inertia
+            ixx="0.087355"   ixy="-2.2739E-06"  ixz="3.6529E-07"
+            iyy="0.0091916"  iyz="-4.837E-07"   izz="0.082615" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_3.STL"/>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="0 0 0" />
+            <material name="red"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://puma560_description/meshes/link_3.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 4: link_3 para link_4-->
+    <joint name="joint_4" type="revolute">
+        <parent link="link_3"/>
+        <child link="link_4"/>
+        <origin xyz="-0.016872 -0.39296 0" 
+                rpy="3.1416 -1.2686 3.1416"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 4: link_4 -->
+    <link name="link_4">
+        <inertial>
+            <origin
+                xyz="1.1102E-16 -0.0067199 2.7756E-17"
+                rpy="0 0 0" />
+            <mass
+                value="0.47079" />
+            <inertia
+                ixx="0.00077289"  ixy="-1.7279E-19"  ixz="-5.421E-20"
+                iyy="0.00046683"  iyz="1.5585E-19"   izz="0.00073772" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_4.STL"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="yellow"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://puma560_description/meshes/link_4.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 5: link_4 para link_5-->
+    <joint name="joint_5" type="revolute">
+        <parent link="link_4"/>
+        <child link="link_5"/>
+        <origin xyz="0 -0.039129 0" 
+                rpy="1.4855 1.5708 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-1.5707" upper="1.5707"/>        
+    </joint>
+
+    <!-- Link 5: link_5 -->
+    <link name="link_5">
+        <inertial>
+            <origin
+                xyz="6.6543E-10 -3.7332E-09 0.010974"
+                rpy="0 0 0" />
+            <mass
+                value="0.077406" />
+            <inertia
+                ixx="4.5414E-05" ixy="1.1361E-11" ixz="-6.3669E-13"
+                iyy="4.3032E-05" iyz="2.5557E-12" izz="1.6966E-05" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://puma560_description/meshes/link_5.STL"/>
+            </geometry>
+            <origin xyz="0 0 0"
+                    rpy="0 0 0" />
+            <material name="yellow"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://puma560_description/meshes/link_5.STL" />
+            </geometry>
+        </collision>
+    </link>    
+
+</robot>

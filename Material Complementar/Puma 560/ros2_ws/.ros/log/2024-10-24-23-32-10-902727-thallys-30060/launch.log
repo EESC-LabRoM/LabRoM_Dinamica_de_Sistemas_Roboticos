@@ -1,0 +1,8 @@
+1729823530.9031324 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-32-10-902727-thallys-30060
+1729823530.9032087 [INFO] [launch]: Default logging verbosity is set to INFO
+1729823530.9833958 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: warning: Using load_yaml() directly is deprecated. Use xacro.load_yaml() instead.
+error: No such key: 'origin' 
+when evaluating expression 'link2_inertia['origin']['xyz']'
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

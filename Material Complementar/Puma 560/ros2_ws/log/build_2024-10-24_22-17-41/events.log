@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000319] (puma560_description) JobQueued: {'identifier': 'puma560_description', 'dependencies': OrderedDict()}
+[0.000336] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000345] (puma560_description) JobStarted: {'identifier': 'puma560_description'}
+[0.004168] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.006582] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'cmake'}
+[0.006665] (puma560_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/src/puma560_description', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/puma560_description'], 'cwd': '/home/ros2_ws/build/puma560_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.008218] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.008365] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/robot_description'], 'cwd': '/home/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.064532] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.066001] (puma560_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099734] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099850] (-) TimerEvent: {}
+[0.102330] (puma560_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.104273] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.106526] (puma560_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.158541] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161757] (puma560_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.163023] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163104] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163386] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.165586] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.166698] (puma560_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.166915] (puma560_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.167321] (puma560_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.169430] (puma560_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199998] (-) TimerEvent: {}
+[0.244343] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244447] (puma560_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.248528] (puma560_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.248593] (puma560_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.248802] (puma560_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.249393] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.249474] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.249689] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.250799] (puma560_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.251214] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300065] (-) TimerEvent: {}
+[0.333267] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.333390] (puma560_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.385724] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.385873] (puma560_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.386825] (puma560_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.400141] (-) TimerEvent: {}
+[0.421451] (puma560_description) StdoutLine: {'line': b'-- Found rviz2: 11.2.13 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[0.422556] (puma560_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.429602] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.429832] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.430074] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.430605] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.431192] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.432527] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.432925] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/robot_description\n'}
+[0.435369] (robot_description) CommandEnded: {'returncode': 0}
+[0.435656] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.436265] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/robot_description', '--', '-j20', '-l20'], 'cwd': '/home/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.460012] (robot_description) CommandEnded: {'returncode': 0}
+[0.469645] (puma560_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.469986] (puma560_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.470211] (puma560_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.471079] (puma560_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.471614] (puma560_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.473256] (puma560_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.473490] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.473769] (puma560_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/puma560_description\n'}
+[0.479968] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/robot_description'], 'cwd': '/home/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.480958] (puma560_description) CommandEnded: {'returncode': 0}
+[0.481079] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'build'}
+[0.481246] (puma560_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/puma560_description', '--', '-j20', '-l20'], 'cwd': '/home/ros2_ws/build/puma560_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.483747] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.483805] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/launch\n'}
+[0.483862] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[0.483927] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.yaml\n'}
+[0.483974] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/launch/test.py\n'}
+[0.484021] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/urdf\n'}
+[0.484059] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/urdf/robot_example.urdf\n'}
+[0.484096] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/config\n'}
+[0.484130] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/config/config.rviz\n'}
+[0.484199] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.484266] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.484327] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.484381] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.484427] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.484475] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.484519] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.484565] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.484612] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.484654] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.484697] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[0.484753] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.484814] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.484853] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.484898] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[0.485828] (robot_description) CommandEnded: {'returncode': 0}
+[0.500246] (-) TimerEvent: {}
+[0.516644] (puma560_description) CommandEnded: {'returncode': 0}
+[0.543932] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.545795] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'install'}
+[0.546362] (puma560_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/puma560_description'], 'cwd': '/home/ros2_ws/build/puma560_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_description'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/robot_description:/home/ros2_ws/install/puma560_description:/opt/ros/humble')]), 'shell': False}
+[0.554710] (puma560_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.554978] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/launch\n'}
+[0.555119] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/display.launch.py\n'}
+[0.555238] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma_display.launch.py\n'}
+[0.555294] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf\n'}
+[0.555345] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro\n'}
+[0.555439] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560.urdf.xacro\n'}
+[0.555546] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/config\n'}
+[0.555603] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes\n'}
+[0.555654] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_5.STL\n'}
+[0.555744] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_1.STL\n'}
+[0.555846] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_4.STL\n'}
+[0.555890] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/base_link.STL\n'}
+[0.556936] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_3.STL\n'}
+[0.559204] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_2.STL\n'}
+[0.559348] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2\n'}
+[0.559472] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2/display_puma560.rviz\n'}
+[0.559586] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/package_run_dependencies/puma560_description\n'}
+[0.559705] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/parent_prefix_path/puma560_description\n'}
+[0.559825] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.sh\n'}
+[0.560081] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.dsv\n'}
+[0.560261] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.sh\n'}
+[0.560387] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.dsv\n'}
+[0.560498] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.bash\n'}
+[0.560607] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.sh\n'}
+[0.560714] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.zsh\n'}
+[0.560820] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.dsv\n'}
+[0.560942] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/package.dsv\n'}
+[0.561091] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/packages/puma560_description\n'}
+[0.561199] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig.cmake\n'}
+[0.561305] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig-version.cmake\n'}
+[0.561407] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/package.xml\n'}
+[0.562740] (puma560_description) CommandEnded: {'returncode': 0}
+[0.584783] (puma560_description) JobEnded: {'identifier': 'puma560_description', 'rc': 0}
+[0.585212] (-) EventReactorShutdown: {}

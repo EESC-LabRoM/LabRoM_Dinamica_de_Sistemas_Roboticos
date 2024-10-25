@@ -1,0 +1,6 @@
+[INFO] [1729824138.687846558] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1729824138.687963220] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1729824138.696699326] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1729824138.798285083] [rviz2]: The link is static or has unrealistic inertia, so the equivalent inertia box will not be shown.
+
+[INFO] [1729824141.182517218] [rclcpp]: signal_handler(signum=2)

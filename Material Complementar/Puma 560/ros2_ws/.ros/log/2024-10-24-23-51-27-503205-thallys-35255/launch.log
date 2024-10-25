@@ -1,0 +1,9 @@
+1729824687.5035810 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-51-27-503205-thallys-35255
+1729824687.5036650 [INFO] [launch]: Default logging verbosity is set to INFO
+1729824687.5786402 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: error: mapping values are not allowed here
+  in "/home/ros2_ws/install/puma560_description/share/puma560_description/config/link2_inertia.yaml", line 3, column 9 
+when evaluating expression 'xacro.load_yaml(yaml_file)' 
+when evaluating expression 'link2_inertia['Puma_560']['Link_2']['origin']['x']'
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

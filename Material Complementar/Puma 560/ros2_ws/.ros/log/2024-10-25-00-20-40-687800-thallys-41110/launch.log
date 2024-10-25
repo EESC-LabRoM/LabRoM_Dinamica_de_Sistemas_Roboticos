@@ -1,0 +1,5 @@
+1729826440.6882217 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-25-00-20-40-687800-thallys-41110
+1729826440.6882956 [INFO] [launch]: Default logging verbosity is set to INFO
+1729826440.6894302 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - IndentationError: unexpected indent (puma_gazebo.launch.py, line 32)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

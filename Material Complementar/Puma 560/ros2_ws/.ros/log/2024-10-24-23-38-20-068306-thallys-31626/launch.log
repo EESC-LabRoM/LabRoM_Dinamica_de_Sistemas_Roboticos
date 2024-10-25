@@ -1,0 +1,8 @@
+1729823900.0687158 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-24-23-38-20-068306-thallys-31626
+1729823900.0687997 [INFO] [launch]: Default logging verbosity is set to INFO
+1729823900.1437819 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+Captured stderr output: error: invalid syntax (<expression>, line 1) 
+when evaluating expression 'xacro.load_yaml($(find puma560_description)/config/link2_inertia.yaml)' 
+when evaluating expression 'link2_inertia.origin.xyz'
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

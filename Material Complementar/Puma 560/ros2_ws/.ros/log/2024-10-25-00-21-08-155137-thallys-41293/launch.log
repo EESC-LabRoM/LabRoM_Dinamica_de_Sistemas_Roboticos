@@ -1,0 +1,5 @@
+1729826468.1555433 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-25-00-21-08-155137-thallys-41293
+1729826468.1556182 [INFO] [launch]: Default logging verbosity is set to INFO
+1729826468.1568263 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - SyntaxError: invalid syntax. Perhaps you forgot a comma? (puma_gazebo.launch.py, line 46)
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

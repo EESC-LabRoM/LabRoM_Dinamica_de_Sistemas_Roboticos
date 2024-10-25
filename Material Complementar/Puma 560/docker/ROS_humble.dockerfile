@@ -25,14 +25,12 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && rm -rf /var/lib/apt/lists/*
 
 # Garante que o diretório runtime seja criado e acessível
-RUN mkdir -p /tmp/runtime-ros2_ws && chown $USER_UID:$USER_GID /tmp/runtime-ros2_ws
+RUN mkdir -p /tmp/runtime-ros2_ws \
+    && chown $USER_UID:$USER_GID /tmp/runtime-ros2_ws \
+    && chmod 0700 /tmp/runtime-ros2_ws
 
 # Adiciona a variável de ambiente para definir o diretório de runtime
 ENV XDG_RUNTIME_DIR=/tmp/runtime-ros2_ws
-
-# # Atualiza a lista de pacotes e instala git e ripgrep
-# RUN apt-get update \
-#     && apt-get install -y git-all ripgrep
 
 # Atualiza a lista de pacotes e instala várias ferramentas de desenvolvimento para ROS, incluindo ferramentas de visualização, URDF, MoveIt 2 e controle ROS 2
 RUN apt-get update && apt-get install -y \
@@ -60,7 +58,13 @@ RUN apt-get update && apt-get install -y \
     ros-humble-ros2-control \                     
     ros-humble-ros2-controllers \                 
     ros-humble-joint-state-broadcaster \          
-    ros-humble-joint-trajectory-controller \      
+    ros-humble-joint-trajectory-controller \ 
+    # -------------------- Pacotes Gazebo e integração com ROS 2 -------------------- #
+    # Instalação do Gazebo, integração e suporte a simulações
+    ros-humble-ros-ign \
+    ros-humble-ros-ign-bridge \
+    ros-humble-ros-ign-gazebo \
+    ros-humble-ros-ign-gazebo-demos \                          
     # Limpeza de pacotes após instalação
     && rm -rf /var/lib/apt/lists/*
 
