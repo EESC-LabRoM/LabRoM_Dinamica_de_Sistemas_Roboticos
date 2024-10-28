@@ -1,0 +1,18 @@
+1730076673.9724114 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-21-51-13-971988-thallys-231
+1730076673.9724865 [INFO] [launch]: Default logging verbosity is set to INFO
+1730076674.2105191 [INFO] [robot_state_publisher-1]: process started with pid [233]
+1730076674.2106295 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [235]
+1730076674.2106731 [INFO] [create-3]: process started with pid [237]
+1730076674.2107046 [INFO] [parameter_bridge-4]: process started with pid [240]
+1730076674.2421629 [parameter_bridge-4] [INFO] [1730076674.241961759] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msg.Clock]) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+1730076674.2422547 [parameter_bridge-4] [WARN] [1730076674.242063477] [ros_gz_bridge]: Failed to create a bridge for topic [/clock] with ROS2 type [rosgraph_msgs/msg/Clock] to topic [/clock] with Gazebo Transport type [gz.msg.Clock]]
+1730076674.8608432 [INFO] [create-3]: process has finished cleanly [pid 237]
+1730076722.7023177 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1730076722.7043750 [parameter_bridge-4] [INFO] [1730076722.701916931] [rclcpp]: signal_handler(signum=2)
+1730076722.8090150 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 233]
+1730076722.8096011 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 240]
+1730076726.3803701 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1730076727.7062395 [ERROR] [ruby $(which ign) gazebo-2]: process[ruby $(which ign) gazebo-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1730076727.7066958 [INFO] [ruby $(which ign) gazebo-2]: sending signal 'SIGTERM' to process[ruby $(which ign) gazebo-2]
+1730076727.7071061 [ERROR] [ruby $(which ign) gazebo-2]: process has died [pid 235, exit code -15, cmd 'ruby $(which ign) gazebo -v 4 -r empty.sdf  --force-version 6'].
+1730076727.7073789 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system

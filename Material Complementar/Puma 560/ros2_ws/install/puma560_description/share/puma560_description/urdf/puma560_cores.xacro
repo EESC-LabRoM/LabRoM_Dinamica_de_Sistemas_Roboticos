@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Cor Vermelha -->
+    <material name="red">
+        <color rgba="0.8 0 0 1"/>
+    </material>
+
+    <!-- Cor Verde -->
+    <material name="green">
+        <color rgba="0 0.8 0 1"/>
+    </material>
+
+    <!-- Cor Azul -->
+    <material name="blue">
+        <color rgba="0 0 0.8 1"/>
+    </material>
+
+    <!-- Cor Amarela -->
+    <material name="yellow">
+        <color rgba="1 1 0 1"/>
+    </material>
+
+    <!-- Cor Ciano -->
+    <material name="cyan">
+        <color rgba="0 1 1 1"/>
+    </material>
+
+</robot>

@@ -3,6 +3,10 @@ Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
   Please use the gz sdf tool to update your SDF files.
     $ gz sdf -c [sdf_file]
 Dbg [parser.cc:914] No <sdf> element in file[<data-string>]
+Dbg [parser_urdf.cc:1555] extension [<plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+    <parameters>/home/ros2_ws/install/puma560_controller/share/puma560_controller/config/puma560_controller.yaml</parameters>
+</plugin>
+] not converted from URDF, probably already in SDF format.
 Dbg [parser_urdf.cc:2893] creating collision for link [base_link] collision []
 Dbg [parser_urdf.cc:2938] creating visual for link [base_link] visual []
 Dbg [parser_urdf.cc:2893] creating collision for link [link_1] collision []

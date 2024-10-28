@@ -1,0 +1,203 @@
+(2024-10-25T16:10:52.454421609) (2024-10-25T16:10:52.454450993) [Dbg] [gz.cc:161] Subscribing to [/ga(2024-10-25T16:10:52.462218255) (2024-10-25T16:10:52.462226893) [Msg] Copied installed config [/usr/share/ignition/ignition-gazebo6/gui/gui.config] to(2024-10-25T16:10:52.566028350) (2024-10-25T16:10:52.566049399) [Msg] Received world [empty.sdf] from the GUI.
+(2024-10-25T16:10:52.566120791) (2024-10-25T16:10:52.566128126) [Dbg] [gz.cc:167] Unsubscr(2024-10-25T16:10:52.584003073) (2024-10-25T16:10:52.584020628) [Dbg] [Application.cc:92] Initializing application.
+(2024-10-25T16:10:52.586645985) (2024-10-25T16:10:52.586661568) [GUI] [Dbg] [Application.cc:555] Create main window
+(2024-10-25T16:10:52.841188910) (2024-10-25T16:10:52.841212911) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:112:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.841292664) (2024-10-25T16:10:52.841301303) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:105:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.841334604) (2024-10-25T16:10:52.841343828) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:98:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.844842073) (2024-10-25T16:10:52.844857847) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:102:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.848514001) (2024-10-25T16:10:52.848529707) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/PluginMenu.qml:27:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.860414683) (2024-10-25T16:10:52.860447607) [GUI] [Dbg] [PathManager.cc:66] Requesting resource paths through [/gazebo/resource_paths/get]
+(2024-10-25T16:10:52.883002917) (2024-10-25T16:10:52.883022001) [GUI] [Wrn] [Application.cc:797] [QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:52.894158689) (2024-10-25T16:10:52.894178714) [GUI] [Dbg] [Gui.cc:333] GUI requesting list of world names. The server may be busy downloading resources. Please be patient.
+(2024-10-25T16:10:52.962037581) (2024-10-25T16:10:52.962066350) [GUI] [Dbg] [PathManager.cc:55] Received resource paths.
+(2024-10-25T16:10:52.962597781) (2024-10-25T16:10:52.962619181) [GUI] [Dbg] [Gui.cc:391] Requesting GUI from [/world/empty/gui/info]...
+(2024-10-25T16:10:52.963731538) (2024-10-25T16:10:52.963753334) [GUI] [Dbg] [GuiRunner.cc:145] Requesting initial state from [/world/empty/state]...
+(2024-10-25T16:10:52.972219662) (2024-10-25T16:10:52.972237752) [GUI] [Msg] Loading config [/home/ros2_ws/.ignition/gazebo/6/gui.config]
+(2024-10-25T16:10:52.972312391) (2024-10-25T16:10:52.972321279) [GUI] [Dbg] [Application.cc:426] Loading plugin [MinimalScene]
+(2024-10-25T16:10:53.127357152) (2024-10-25T16:10:53.127377599) [GUI] [Msg] Added plugin [3D View] to main window
+(2024-10-25T16:10:53.127716501) (2024-10-25T16:10:53.127727953) [GUI] [Msg] Loaded plugin [MinimalScene] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so]
+(2024-10-25T16:10:53.127801447) (2024-10-25T16:10:53.127811083) [GUI] [Dbg] [Application.cc:426] Loading plugin [EntityContextMenuPlugin]
+(2024-10-25T16:10:53.154618506) (2024-10-25T16:10:53.154643067) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:57:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.155789744) (2024-10-25T16:10:53.155802046) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.155856778) (2024-10-25T16:10:53.155864935) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.179392411) (2024-10-25T16:10:53.179412620) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.179511986) (2024-10-25T16:10:53.179518949) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.180567404) (2024-10-25T16:10:53.180580946) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.180634017) (2024-10-25T16:10:53.180641297) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.183322936) (2024-10-25T16:10:53.183339418) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.183394219) (2024-10-25T16:10:53.183398622) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.183981523) (2024-10-25T16:10:53.183988704) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.184015919) (2024-10-25T16:10:53.184020168) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.184372462) (2024-10-25T16:10:53.184378133) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.184400382) (2024-10-25T16:10:53.184404642) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.186374007) (2024-10-25T16:10:53.186382662) [GUI] [Msg] Added plugin [Entity Context Menu] to main window
+(2024-10-25T16:10:53.186423778) (2024-10-25T16:10:53.186428123) [GUI] [Msg] Loaded plugin [EntityContextMenuPlugin] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityContextMenuPlugin.so]
+(2024-10-25T16:10:53.186472115) (2024-10-25T16:10:53.186476436) [GUI] [Dbg] [Application.cc:426] Loading plugin [GzSceneManager]
+(2024-10-25T16:10:53.213762469) (2024-10-25T16:10:53.213775399) [GUI] [Msg] Added plugin [Scene Manager] to main window
+(2024-10-25T16:10:53.213836040) (2024-10-25T16:10:53.213840684) [GUI] [Msg] Loaded plugin [GzSceneManager] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzSceneManager.so]
+(2024-10-25T16:10:53.213879927) (2024-10-25T16:10:53.213884905) [GUI] [Dbg] [Application.cc:426] Loading plugin [InteractiveViewControl]
+(2024-10-25T16:10:53.219042755) (2024-10-25T16:10:53.219051867) [GUI] [Msg] Camera view controller topic advertised on [/gui/camera/view_control]
+(2024-10-25T16:10:53.219125982) (2024-10-25T16:10:53.219130510) [GUI] [Msg] Camera reference visual topic advertised on [/gui/camera/view_control/reference_visual]
+(2024-10-25T16:10:53.219266216) (2024-10-25T16:10:53.219270894) [GUI] [Msg] Camera view control sensitivity advertised on [/gui/camera/view_control/sensitivity]
+(2024-10-25T16:10:53.239790471) (2024-10-25T16:10:53.239806988) [GUI] [Msg] Added plugin [Interactive view control] to main window
+(2024-10-25T16:10:53.239870204) (2024-10-25T16:10:53.239876192) [GUI] [Msg] Loaded plugin [InteractiveViewControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libInteractiveViewControl.so]
+(2024-10-25T16:10:53.239924505) (2024-10-25T16:10:53.239930544) [GUI] [Dbg] [Application.cc:426] Loading plugin [CameraTracking]
+(2024-10-25T16:10:53.262149432) (2024-10-25T16:10:53.262160343) [GUI] [Msg] Added plugin [Camera tracking] to main window
+(2024-10-25T16:10:53.262203177) (2024-10-25T16:10:53.262207544) [GUI] [Msg] Loaded plugin [CameraTracking] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libCameraTracking.so]
+(2024-10-25T16:10:53.262247678) (2024-10-25T16:10:53.262253088) [GUI] [Dbg] [Application.cc:426] Loading plugin [MarkerManager]
+(2024-10-25T16:10:53.267918942) (2024-10-25T16:10:53.267932774) [GUI] [Msg] Listening to stats on [/world/empty/stats]
+(2024-10-25T16:10:53.290392033) (2024-10-25T16:10:53.290405392) [GUI] [Msg] Added plugin [Marker Manager] to main window
+(2024-10-25T16:10:53.290465677) (2024-10-25T16:10:53.290470153) [GUI] [Msg] Loaded plugin [MarkerManager] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMarkerManager.so]
+(2024-10-25T16:10:53.290506577) (2024-10-25T16:10:53.290511025) [GUI] [Dbg] [Application.cc:426] Loading plugin [SelectEntities]
+(2024-10-25T16:10:53.313685813) (2024-10-25T16:10:53.313697953) [GUI] [Msg] Added plugin [Select entities] to main window
+(2024-10-25T16:10:53.313747151) (2024-10-25T16:10:53.313751676) [GUI] [Msg] Loaded plugin [SelectEntities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSelectEntities.so]
+(2024-10-25T16:10:53.313787317) (2024-10-25T16:10:53.313791645) [GUI] [Dbg] [Application.cc:426] Loading plugin [Spawn]
+(2024-10-25T16:10:53.320297845) (2024-10-25T16:10:53.320307616) [GUI] [Wrn] [Application.cc:797] [QT] file::/Spawn/Spawn.qml:32:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.337100916) (2024-10-25T16:10:53.337126126) [GUI] [Msg] Added plugin [Spawn] to main window
+(2024-10-25T16:10:53.337190092) (2024-10-25T16:10:53.337194538) [GUI] [Msg] Loaded plugin [Spawn] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSpawn.so]
+(2024-10-25T16:10:53.337230778) (2024-10-25T16:10:53.337235329) [GUI] [Dbg] [Application.cc:426] Loading plugin [VisualizationCapabilities]
+(2024-10-25T16:10:53.344652746) (2024-10-25T16:10:53.344663263) [GUI] [Msg] View as transparent service on [/gui/view/transparent]
+(2024-10-25T16:10:53.344729612) (2024-10-25T16:10:53.344734055) [GUI] [Msg] View as wireframes service on [/gui/view/wireframes]
+(2024-10-25T16:10:53.344786381) (2024-10-25T16:10:53.344790750) [GUI] [Msg] View center of mass service on [/gui/view/com]
+(2024-10-25T16:10:53.344836007) (2024-10-25T16:10:53.344840302) [GUI] [Msg] View inertia service on [/gui/view/inertia]
+(2024-10-25T16:10:53.344890242) (2024-10-25T16:10:53.344894521) [GUI] [Msg] View collisions service on [/gui/view/collisions]
+(2024-10-25T16:10:53.344945960) (2024-10-25T16:10:53.344950327) [GUI] [Msg] View joints service on [/gui/view/joints]
+(2024-10-25T16:10:53.344994907) (2024-10-25T16:10:53.344999167) [GUI] [Msg] View frames service on [/gui/view/frames]
+(2024-10-25T16:10:53.366223043) (2024-10-25T16:10:53.366239636) [GUI] [Msg] Added plugin [Visualization capabilities] to main window
+(2024-10-25T16:10:53.366319126) (2024-10-25T16:10:53.366323880) [GUI] [Msg] Loaded plugin [VisualizationCapabilities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libVisualizationCapabilities.so]
+(2024-10-25T16:10:53.366361834) (2024-10-25T16:10:53.366366217) [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldControl]
+(2024-10-25T16:10:53.377601767) (2024-10-25T16:10:53.377612116) [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldControl/WorldControl.qml:30:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.377910124) (2024-10-25T16:10:53.377916920) [GUI] [Msg] Using world control service [/world/empty/control]
+(2024-10-25T16:10:53.378256016) (2024-10-25T16:10:53.378263139) [GUI] [Msg] Listening to stats on [/world/empty/stats]
+(2024-10-25T16:10:53.378286362) (2024-10-25T16:10:53.378290589) [GUI] [Dbg] [WorldControl.cc:246] Using an event to share WorldControl msgs with the server
+(2024-10-25T16:10:53.395235876) (2024-10-25T16:10:53.395246885) [GUI] [Msg] Added plugin [World control] to main window
+(2024-10-25T16:10:53.395288909) (2024-10-25T16:10:53.395293239) [GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldControl.so]
+(2024-10-25T16:10:53.395328397) (2024-10-25T16:10:53.395332734) [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldStats]
+(2024-10-25T16:10:53.405804062) (2024-10-25T16:10:53.405814845) [GUI] [Msg] Listening to stats on [/world/empty/stats]
+(2024-10-25T16:10:53.424350989) (2024-10-25T16:10:53.424362277) [GUI] [Msg] Added plugin [World stats] to main window
+(2024-10-25T16:10:53.424412806) (2024-10-25T16:10:53.424417412) [GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldStats.so]
+(2024-10-25T16:10:53.424463216) (2024-10-25T16:10:53.424467620) [GUI] [Dbg] [Application.cc:426] Loading plugin [Shapes]
+(2024-10-25T16:10:53.458907874) (2024-10-25T16:10:53.458919458) [GUI] [Msg] Added plugin [Shapes] to main window
+(2024-10-25T16:10:53.458970008) (2024-10-25T16:10:53.458974322) [GUI] [Msg] Loaded plugin [Shapes] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libShapes.so]
+(2024-10-25T16:10:53.459010682) (2024-10-25T16:10:53.459015073) [GUI] [Dbg] [Application.cc:426] Loading plugin [Lights]
+(2024-10-25T16:10:53.483214860) (2024-10-25T16:10:53.483232044) [GUI] [Msg] Added plugin [Lights] to main window
+(2024-10-25T16:10:53.483294232) (2024-10-25T16:10:53.483300290) [GUI] [Msg] Loaded plugin [Lights] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libLights.so]
+(2024-10-25T16:10:53.483349436) (2024-10-25T16:10:53.483355533) [GUI] [Dbg] [Application.cc:426] Loading plugin [TransformControl]
+(2024-10-25T16:10:53.525332383) (2024-10-25T16:10:53.525348200) [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:104:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.525418859) (2024-10-25T16:10:53.525425503) [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:99:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.525502551) (2024-10-25T16:10:53.525508950) [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:94:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.525553896) (2024-10-25T16:10:53.525559996) [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:89:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+(2024-10-25T16:10:53.526762159) (2024-10-25T16:10:53.526775802) [GUI] [Dbg] [TransformControl.cc:222] Legacy mode is disabled; this plugin must be used with MinimalScene.
+(2024-10-25T16:10:53.555743040) (2024-10-25T16:10:53.555766396) [GUI] [Msg] Added plugin [Transform control] to main window
+(2024-10-25T16:10:53.555864752) (2024-10-25T16:10:53.555877395) [GUI] [Msg] Loaded plugin [TransformControl] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libTransformControl.so]
+(2024-10-25T16:10:53.555965140) (2024-10-25T16:10:53.555977748) [GUI] [Dbg] [Application.cc:426] Loading plugin [Screenshot]
+(2024-10-25T16:10:53.569325539) (2024-10-25T16:10:53.569347367) [GUI] [Msg] Screenshot service on [/gui/screenshot]
+(2024-10-25T16:10:53.593578746) (2024-10-25T16:10:53.593594798) [GUI] [Msg] Added plugin [Screenshot] to main window
+(2024-10-25T16:10:53.593664369) (2024-10-25T16:10:53.593672789) [GUI] [Msg] Loaded plugin [Screenshot] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libScreenshot.so]
+(2024-10-25T16:10:53.593734925) (2024-10-25T16:10:53.593742189) [GUI] [Dbg] [Application.cc:426] Loading plugin [CopyPaste]
+(2024-10-25T16:10:53.618411094) (2024-10-25T16:10:53.618422654) [GUI] [Msg] Added plugin [Copy/Paste] to main window
+(2024-10-25T16:10:53.618474855) (2024-10-25T16:10:53.618479328) [GUI] [Msg] Loaded plugin [CopyPaste] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libCopyPaste.so]
+(2024-10-25T16:10:53.618515447) (2024-10-25T16:10:53.618519924) [GUI] [Dbg] [Application.cc:426] Loading plugin [ComponentInspector]
+(2024-10-25T16:10:53.701758637) (2024-10-25T16:10:53.701775765) [GUI] [Msg] Added plugin [Component inspector] to main window
+(2024-10-25T16:10:53.701838917) (2024-10-25T16:10:53.701846626) [GUI] [Msg] Loaded plugin [ComponentInspector] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libComponentInspector.so]
+(2024-10-25T16:10:53.701895564) (2024-10-25T16:10:53.701901629) [GUI] [Dbg] [Application.cc:426] Loading plugin [EntityTree]
+(2024-10-25T16:10:53.759507668) (2024-10-25T16:10:53.759524741) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityTree/EntityTree.qml:148:7: QML ToolButton: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.777790555) (2024-10-25T16:10:53.777802901) [GUI] [Msg] Added plugin [Entity tree] to main window
+(2024-10-25T16:10:53.777846821) (2024-10-25T16:10:53.777851395) [GUI] [Msg] Loaded plugin [EntityTree] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityTree.so]
+(2024-10-25T16:10:53.777886534) (2024-10-25T16:10:53.777890872) [GUI] [Dbg] [Application.cc:296] Loading window config
+(2024-10-25T16:10:53.777969973) (2024-10-25T16:10:53.777974191) [GUI] [Msg] Using server control service [/server_control]
+(2024-10-25T16:10:53.777993579) (2024-10-25T16:10:53.777997865) [GUI] [Dbg] [Application.cc:569] Applying config
+(2024-10-25T16:10:53.802690949) (2024-10-25T16:10:53.802706080) [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"
+(2024-10-25T16:10:53.806221020) (2024-10-25T16:10:53.806236321) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:53.806289840) (2024-10-25T16:10:53.806296037) [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+(2024-10-25T16:10:54.550361887) (2024-10-25T16:10:54.550373408) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:54.755564921) (2024-10-25T16:10:54.755573384) [GUI] [Dbg] [MinimalScene.cc:602] Create scene [scene]
+(2024-10-25T16:10:54.965061799) (2024-10-25T16:10:54.965073449) [GUI] [Wrn] [Ogre2RenderTarget.cc:574] Anti-aliasing level of '8' is not supported; valid FSAA levels are: [ 0 ]. Setting to 0
+(2024-10-25T16:10:55.110044515) (2024-10-25T16:10:55.110067516) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.110397240) (2024-10-25T16:10:55.110411816) [GUI] [Dbg] [TransformControl.cc:531] TransformControl plugin is using camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.110648324) (2024-10-25T16:10:55.110662813) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.110898425) (2024-10-25T16:10:55.110905519) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.111026320) (2024-10-25T16:10:55.111032627) [GUI] [Dbg] [Spawn.cc:289] Spawn plugin is using camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.111070211) (2024-10-25T16:10:55.111076136) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.111166115) (2024-10-25T16:10:55.111172242) [GUI] [Dbg] [SelectEntities.cc:451] SelectEntities plugin is using camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.111210025) (2024-10-25T16:10:55.111216025) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.111574074) (2024-10-25T16:10:55.111583763) [GUI] [Dbg] [MarkerManager.cc:173] Advertise /marker/list service.
+(2024-10-25T16:10:55.111808380) (2024-10-25T16:10:55.111814714) [GUI] [Dbg] [MarkerManager.cc:183] Advertise /marker/list.
+(2024-10-25T16:10:55.111879408) (2024-10-25T16:10:55.111885537) [GUI] [Dbg] [MarkerManager.cc:193] Advertise /marker_array.
+(2024-10-25T16:10:55.111917544) (2024-10-25T16:10:55.111923528) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.112201258) (2024-10-25T16:10:55.112338206) [GUI] [Dbg] [CameraTracking.cc:181] CameraTrackingPrivate plugin is moving camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.112973376) (2024-10-25T16:10:55.112979911) [GUI] [Msg] Move to service on [/gui/move_to]
+(2024-10-25T16:10:55.113050959) (2024-10-25T16:10:55.113057217) [GUI] [Msg] Follow service on [/gui/follow]
+(2024-10-25T16:10:55.113183428) (2024-10-25T16:10:55.113189814) [GUI] [Msg] Move to pose service on [/gui/move_to/pose]
+(2024-10-25T16:10:55.113334419) (2024-10-25T16:10:55.113341276) [GUI] [Msg] Camera pose topic advertised on [/gui/camera/pose]
+(2024-10-25T16:10:55.113469115) (2024-10-25T16:10:55.113476434) [GUI] [Msg] Follow offset service on [/gui/follow/offset]
+(2024-10-25T16:10:55.113519584) (2024-10-25T16:10:55.113526536) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.113688105) (2024-10-25T16:10:55.113695452) [GUI] [Dbg] [InteractiveViewControl.cc:174] InteractiveViewControl plugin is moving camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.113738013) (2024-10-25T16:10:55.113744756) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.113918676) (2024-10-25T16:10:55.113925717) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T16:10:55.114255352) (2024-10-25T16:10:55.114271548) [GUI] [Dbg] [EntityContextMenuPlugin.cc:79] Entity context menu plugin is using camera [scene::Camera(65527)]
+(2024-10-25T16:10:55.305716054) (2024-10-25T16:10:55.305734886) [GUI] [Wrn] [Component.hh:189] Trying to deserialize component with data type [N3sdf3v125WorldE], which doesn't have `operator>>`. Component will not be deserialized.
+(2024-10-25T18:58:07.289396364) (2024-10-25T18:58:07.289437005) [GUI] [Dbg] [SignalHandler.cc:141] Received signal[2].
+(2024-10-25T18:58:07.314088024) (2024-10-25T18:58:07.314104439) [GUI] [Dbg] [Gui.cc:472] Shutting down ign-gazebo-gui
+(2024-10-25T18:58:07.314149797) (2024-10-25T18:58:07.314157760) [GUI] [Dbg] [Application.cc:140] Terminating application.
+(2024-10-25T18:58:07.368830513) (2024-10-25T18:58:07.368921461) [GUI] [Msg] Loading plugin [ignition-rendering-ogre2]
+(2024-10-25T18:58:07.370290113) (2024-10-25T18:58:07.371363651) [GUI] [Dbg] [MinimalScene.cc:657] Destroy scene [scene]
+(2024-10-25T18:58:07.422971056) (2024-10-25T18:58:07.422982113) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:52: TypeError: Cannot read property 'dialogOnExitText' of null
+(2024-10-25T18:58:07.423027113) (2024-10-25T18:58:07.423031604) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:54: TypeError: Cannot read property 'exitDialogShowCloseGui' of null
+(2024-10-25T18:58:07.423053505) (2024-10-25T18:58:07.423058167) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:53: TypeError: Cannot read property 'exitDialogShowShutdown' of null
+(2024-10-25T18:58:07.423094349) (2024-10-25T18:58:07.423098656) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:251: TypeError: Cannot read property 'showDrawer' of null
+(2024-10-25T18:58:07.423124690) (2024-10-25T18:58:07.423129657) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/SideDrawer.qml:93: TypeError: Cannot read property 'showDefaultDrawerOpts' of null
+(2024-10-25T18:58:07.423154740) (2024-10-25T18:58:07.423158947) [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/IgnSplit.qml:56: TypeError: Cannot read property 'pluginCount' of null
+(2024-10-25T18:58:07.423183269) (2024-10-25T18:58:07.423187509) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:41: TypeError: Cannot read property 'toolBarColorLight' of null
+(2024-10-25T18:58:07.423208035) (2024-10-25T18:58:07.423212369) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:42: TypeError: Cannot read property 'toolBarTextColorLight' of null
+(2024-10-25T18:58:07.423233384) (2024-10-25T18:58:07.423238288) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:43: TypeError: Cannot read property 'toolBarColorDark' of null
+(2024-10-25T18:58:07.423272251) (2024-10-25T18:58:07.423278394) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:44: TypeError: Cannot read property 'toolBarTextColorDark' of null
+(2024-10-25T18:58:07.423300448) (2024-10-25T18:58:07.423304687) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:45: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423324718) (2024-10-25T18:58:07.423329033) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:46: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423349743) (2024-10-25T18:58:07.423354935) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:47: TypeError: Cannot read property 'pluginToolBarColorDark' of null
+(2024-10-25T18:58:07.423375418) (2024-10-25T18:58:07.423379607) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:48: TypeError: Cannot read property 'pluginToolBarTextColorDark' of null
+(2024-10-25T18:58:07.423399183) (2024-10-25T18:58:07.423403458) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:50: TypeError: Cannot read property 'defaultExitAction' of null
+(2024-10-25T18:58:07.423429046) (2024-10-25T18:58:07.423433395) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:51: TypeError: Cannot read property 'showDialogOnExit' of null
+(2024-10-25T18:58:07.423454353) (2024-10-25T18:58:07.423459570) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:55: TypeError: Cannot read property 'exitDialogShutdownText' of null
+(2024-10-25T18:58:07.423479577) (2024-10-25T18:58:07.423483783) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:56: TypeError: Cannot read property 'exitDialogCloseGuiText' of null
+(2024-10-25T18:58:07.423505542) (2024-10-25T18:58:07.423509724) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:66: TypeError: Cannot read property 'toolBarColorLight' of null
+(2024-10-25T18:58:07.423561557) (2024-10-25T18:58:07.423565978) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:76: TypeError: Cannot read property 'toolBarTextColorLight' of null
+(2024-10-25T18:58:07.423595142) (2024-10-25T18:58:07.423599393) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:219: TypeError: Cannot read property 'showPluginMenu' of null
+(2024-10-25T18:58:07.423633535) (2024-10-25T18:58:07.423638066) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:202: TypeError: Cannot read property 'showDrawer' of null
+(2024-10-25T18:58:07.423663838) (2024-10-25T18:58:07.423668062) [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:188: TypeError: Cannot read property 'showDrawer' of null
+(2024-10-25T18:58:07.423696204) (2024-10-25T18:58:07.423700444) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423724244) (2024-10-25T18:58:07.423728509) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423750958) (2024-10-25T18:58:07.423755179) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423779482) (2024-10-25T18:58:07.423783703) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423807148) (2024-10-25T18:58:07.423811504) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423833076) (2024-10-25T18:58:07.423837287) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423860786) (2024-10-25T18:58:07.423864991) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423888221) (2024-10-25T18:58:07.423892446) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423913786) (2024-10-25T18:58:07.423918071) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423941094) (2024-10-25T18:58:07.423945322) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.423966946) (2024-10-25T18:58:07.423971164) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.423992988) (2024-10-25T18:58:07.423997948) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424020598) (2024-10-25T18:58:07.424024850) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424047822) (2024-10-25T18:58:07.424052026) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424074125) (2024-10-25T18:58:07.424078344) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424100929) (2024-10-25T18:58:07.424105164) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424126684) (2024-10-25T18:58:07.424130981) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424153955) (2024-10-25T18:58:07.424158200) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424180039) (2024-10-25T18:58:07.424184215) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424210935) (2024-10-25T18:58:07.424215203) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424239809) (2024-10-25T18:58:07.424244185) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424277585) (2024-10-25T18:58:07.424281901) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424305079) (2024-10-25T18:58:07.424309356) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424337103) (2024-10-25T18:58:07.424341333) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424363615) (2024-10-25T18:58:07.424367900) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424390730) (2024-10-25T18:58:07.424394954) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424416767) (2024-10-25T18:58:07.424421104) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424444100) (2024-10-25T18:58:07.424448303) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424473288) (2024-10-25T18:58:07.424477955) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424499269) (2024-10-25T18:58:07.424503463) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424526282) (2024-10-25T18:58:07.424530481) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424553661) (2024-10-25T18:58:07.424558035) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424580027) (2024-10-25T18:58:07.424584255) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424607183) (2024-10-25T18:58:07.424611416) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null
+(2024-10-25T18:58:07.424638688) (2024-10-25T18:58:07.424643015) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:128: TypeError: Cannot read property 'pluginToolBarColorLight' of null
+(2024-10-25T18:58:07.424664847) (2024-10-25T18:58:07.424669068) [GUI] [Wrn] [Application.cc:797] [QT] file::qml/IgnCard.qml:139: TypeError: Cannot read property 'pluginToolBarTextColorLight' of null

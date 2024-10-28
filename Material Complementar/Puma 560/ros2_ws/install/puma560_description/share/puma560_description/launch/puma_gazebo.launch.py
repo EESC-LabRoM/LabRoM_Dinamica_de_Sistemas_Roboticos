@@ -26,10 +26,17 @@ def generate_launch_description():
     )
 
     ros_distro = os.environ["ROS_DISTRO"]
+    is_ignition = "True" if ros_distro== "humble" else "False"
     physics_engine = "" if ros_distro == "humble" else "--physics-engine gz-physics-bullet-featherstone-plugin"
 
+    # Corrigir o comando para o xacro, garantindo que os argumentos sejam passados corretamente
     robot_description = ParameterValue(
-        Command(['xacro ', LaunchConfiguration('model')]), 
+        Command([
+        "xacro ", 
+        LaunchConfiguration('model'),
+        " is_ignition:=",
+        is_ignition
+        ]),
         value_type=str
     )
 

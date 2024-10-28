@@ -1,0 +1,35 @@
+(2024-10-27T21:15:43.541965624) (2024-10-27T21:15:43.541975275) [Msg] Ignition Gazebo Server v6.16.0
+(2024-10-27T21:15:43.546614106) (2024-10-27T21:15:43.546623664) [Msg] Loading SDF world file[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+(2024-10-27T21:15:43.576364234) (2024-10-27T21:15:43.576373567) [Msg] Serving entity system service on [/entity/system/add]
+(2024-10-27T21:15:43.593926501) (2024-10-27T21:15:43.593931987) [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+(2024-10-27T21:15:43.593961052) (2024-10-27T21:15:43.593963462) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2024-10-27T21:15:43.595020109) (2024-10-27T21:15:43.595025507) [Msg] Create service on [/world/empty/create]
+(2024-10-27T21:15:43.595101446) (2024-10-27T21:15:43.595105053) [Msg] Remove service on [/world/empty/remove]
+(2024-10-27T21:15:43.595163345) (2024-10-27T21:15:43.595166838) [Msg] Pose service on [/world/empty/set_pose]
+(2024-10-27T21:15:43.595211007) (2024-10-27T21:15:43.595214374) [Msg] Pose service on [/world/empty/set_pose_vector]
+(2024-10-27T21:15:43.595300650) (2024-10-27T21:15:43.595304103) [Msg] Light configuration service on [/world/empty/light_config]
+(2024-10-27T21:15:43.595471046) (2024-10-27T21:15:43.595475764) [Msg] Physics service on [/world/empty/set_physics]
+(2024-10-27T21:15:43.595548702) (2024-10-27T21:15:43.595551348) [Msg] SphericalCoordinates service on [/world/empty/set_spherical_coordinates]
+(2024-10-27T21:15:43.595578708) (2024-10-27T21:15:43.595581131) [Msg] Enable collision service on [/world/empty/enable_collision]
+(2024-10-27T21:15:43.595608158) (2024-10-27T21:15:43.595610476) [Msg] Disable collision service on [/world/empty/disable_collision]
+(2024-10-27T21:15:43.595687053) (2024-10-27T21:15:43.595689401) [Msg] Material service on [/world/empty/visual_config]
+(2024-10-27T21:15:43.595741446) (2024-10-27T21:15:43.595743675) [Msg] Material service on [/world/empty/wheel_slip]
+(2024-10-27T21:15:43.595758154) (2024-10-27T21:15:43.595760296) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2024-10-27T21:15:43.596622678) (2024-10-27T21:15:43.596626514) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2024-10-27T21:15:43.597181014) (2024-10-27T21:15:43.597184326) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2024-10-27T21:15:43.597403883) (2024-10-27T21:15:43.597406557) [Msg] Loaded level [3]
+(2024-10-27T21:15:43.597538380) (2024-10-27T21:15:43.597540780) [Msg] Serving world controls on [/world/empty/control], [/world/empty/control/state] and [/world/empty/playback/control]
+(2024-10-27T21:15:43.597584379) (2024-10-27T21:15:43.597586562) [Msg] Serving GUI information on [/world/empty/gui/info]
+(2024-10-27T21:15:43.597596882) (2024-10-27T21:15:43.597598885) [Msg] World [empty] initialized with [1ms] physics profile.
+(2024-10-27T21:15:43.597652134) (2024-10-27T21:15:43.597654315) [Msg] Serving world SDF generation service on [/world/empty/generate_world_sdf]
+(2024-10-27T21:15:43.597688796) (2024-10-27T21:15:43.597690934) [Msg] Serving world names on [/gazebo/worlds]
+(2024-10-27T21:15:43.597712935) (2024-10-27T21:15:43.597714969) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2024-10-27T21:15:43.597735919) (2024-10-27T21:15:43.597738010) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2024-10-27T21:15:43.597759593) (2024-10-27T21:15:43.597761621) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2024-10-27T21:15:43.597792344) (2024-10-27T21:15:43.597794348) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2024-10-27T21:15:43.597844176) (2024-10-27T21:15:43.597846282) [Msg] Server control service on [/server_control].
+(2024-10-27T21:15:45.439774406) (2024-10-27T21:15:45.439797746) [Msg] Found no publishers on /stats, adding root stats topic
+(2024-10-27T21:15:45.440292813) (2024-10-27T21:15:45.440329671) [Msg] Found no publishers on /clock, adding root clock topic
+(2024-10-27T21:15:45.440573151) (2024-10-27T21:15:45.440582815) [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 3
+(2024-10-27T21:15:45.440625295) (2024-10-27T21:15:45.440634640) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+(2024-10-27T21:15:45.440895450) (2024-10-27T21:15:45.440911629) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (1)

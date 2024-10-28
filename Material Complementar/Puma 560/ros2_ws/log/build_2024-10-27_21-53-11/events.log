@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (puma560_controller) JobQueued: {'identifier': 'puma560_controller', 'dependencies': OrderedDict()}
+[0.000165] (puma560_description) JobQueued: {'identifier': 'puma560_description', 'dependencies': OrderedDict()}
+[0.000270] (puma560_controller) JobStarted: {'identifier': 'puma560_controller'}
+[0.003672] (puma560_description) JobStarted: {'identifier': 'puma560_description'}
+[0.005973] (puma560_controller) JobProgress: {'identifier': 'puma560_controller', 'progress': 'cmake'}
+[0.006200] (puma560_controller) JobProgress: {'identifier': 'puma560_controller', 'progress': 'build'}
+[0.006539] (puma560_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/puma560_controller', '--', '-j20', '-l20'], 'cwd': '/home/ros2_ws/build/puma560_controller', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008535] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'cmake'}
+[0.008749] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'build'}
+[0.008894] (puma560_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/puma560_description', '--', '-j20', '-l20'], 'cwd': '/home/ros2_ws/build/puma560_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038394] (puma560_controller) CommandEnded: {'returncode': 0}
+[0.040589] (puma560_description) CommandEnded: {'returncode': 0}
+[0.057610] (puma560_controller) JobProgress: {'identifier': 'puma560_controller', 'progress': 'install'}
+[0.067636] (puma560_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/puma560_controller'], 'cwd': '/home/ros2_ws/build/puma560_controller', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069485] (puma560_description) JobProgress: {'identifier': 'puma560_description', 'progress': 'install'}
+[0.069928] (puma560_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/puma560_description'], 'cwd': '/home/ros2_ws/build/puma560_description', 'env': OrderedDict([('HOSTNAME', 'thallys'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/home/ros2_ws/build/puma560_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.077840] (puma560_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.078108] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/config\n'}
+[0.078202] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/config/puma560_controller.yaml\n'}
+[0.078270] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/ament_index/resource_index/package_run_dependencies/puma560_controller\n'}
+[0.078371] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/ament_index/resource_index/parent_prefix_path/puma560_controller\n'}
+[0.078505] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/environment/ament_prefix_path.sh\n'}
+[0.078585] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/environment/ament_prefix_path.dsv\n'}
+[0.078671] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/environment/path.sh\n'}
+[0.078731] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/environment/path.dsv\n'}
+[0.078787] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/local_setup.bash\n'}
+[0.078864] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/local_setup.sh\n'}
+[0.078923] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/local_setup.zsh\n'}
+[0.078983] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/local_setup.dsv\n'}
+[0.079041] (puma560_controller) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_controller/share/puma560_controller/package.dsv\n'}
+[0.079104] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/ament_index/resource_index/packages/puma560_controller\n'}
+[0.079192] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/cmake/puma560_controllerConfig.cmake\n'}
+[0.079291] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/cmake/puma560_controllerConfig-version.cmake\n'}
+[0.079361] (puma560_controller) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_controller/share/puma560_controller/package.xml\n'}
+[0.080820] (puma560_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.081315] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch\n'}
+[0.081408] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma_display.launch.py\n'}
+[0.081461] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma_gazebo.launch.py\n'}
+[0.081511] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf\n'}
+[0.081564] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_gazebo.xacro\n'}
+[0.081616] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_cores.xacro\n'}
+[0.081664] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro\n'}
+[0.081712] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_control.xacro\n'}
+[0.081761] (puma560_controller) CommandEnded: {'returncode': 0}
+[0.082331] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/config\n'}
+[0.082433] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/config/link2_inertia.yaml\n'}
+[0.082514] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes\n'}
+[0.082639] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_5.STL\n'}
+[0.082796] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_1.STL\n'}
+[0.082896] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_4.STL\n'}
+[0.082946] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/base_link.STL\n'}
+[0.082993] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_3.STL\n'}
+[0.083041] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_2.STL\n'}
+[0.083086] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2\n'}
+[0.083132] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/rviz2/display_puma560.rviz\n'}
+[0.083183] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/package_run_dependencies/puma560_description\n'}
+[0.083231] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/parent_prefix_path/puma560_description\n'}
+[0.083275] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.sh\n'}
+[0.083320] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/ament_prefix_path.dsv\n'}
+[0.083421] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.sh\n'}
+[0.083466] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/environment/path.dsv\n'}
+[0.083510] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.bash\n'}
+[0.083559] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.sh\n'}
+[0.083610] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.zsh\n'}
+[0.083654] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/local_setup.dsv\n'}
+[0.083698] (puma560_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/puma560_description/share/puma560_description/package.dsv\n'}
+[0.083741] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/ament_index/resource_index/packages/puma560_description\n'}
+[0.083835] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig.cmake\n'}
+[0.083881] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/cmake/puma560_descriptionConfig-version.cmake\n'}
+[0.083922] (puma560_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/puma560_description/share/puma560_description/package.xml\n'}
+[0.095048] (puma560_description) CommandEnded: {'returncode': 0}
+[0.099589] (-) TimerEvent: {}
+[0.110303] (puma560_controller) JobEnded: {'identifier': 'puma560_controller', 'rc': 0}
+[0.113813] (puma560_description) JobEnded: {'identifier': 'puma560_description', 'rc': 0}
+[0.114238] (-) EventReactorShutdown: {}

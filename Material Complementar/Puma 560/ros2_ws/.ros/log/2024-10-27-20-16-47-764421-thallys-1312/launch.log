@@ -1,0 +1,5 @@
+1730071007.7648008 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-20-16-47-764421-thallys-1312
+1730071007.7648709 [INFO] [launch]: Default logging verbosity is set to INFO
+1730071007.7802949 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - TypeError: bad operand type for unary +: 'str'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

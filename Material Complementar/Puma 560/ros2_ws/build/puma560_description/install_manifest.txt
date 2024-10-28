@@ -1,7 +1,9 @@
 /home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma_display.launch.py
 /home/ros2_ws/install/puma560_description/share/puma560_description/launch/puma_gazebo.launch.py
+/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_gazebo.xacro
+/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_cores.xacro
 /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
-/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/cores.xacro
+/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_control.xacro
 /home/ros2_ws/install/puma560_description/share/puma560_description/config/link2_inertia.yaml
 /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_5.STL
 /home/ros2_ws/install/puma560_description/share/puma560_description/meshes/link_1.STL

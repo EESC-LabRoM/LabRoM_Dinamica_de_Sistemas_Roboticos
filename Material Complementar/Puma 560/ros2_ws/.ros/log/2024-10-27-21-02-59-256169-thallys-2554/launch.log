@@ -1,0 +1,7 @@
+1730073779.2565844 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-21-02-59-256169-thallys-2554
+1730073779.2566576 [INFO] [launch]: Default logging verbosity is set to INFO
+1730073779.3432288 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro is_ignition:=True
+Captured stderr output: error: invalid expression: $(arg is_ignition
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_control.xacro
+included from: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

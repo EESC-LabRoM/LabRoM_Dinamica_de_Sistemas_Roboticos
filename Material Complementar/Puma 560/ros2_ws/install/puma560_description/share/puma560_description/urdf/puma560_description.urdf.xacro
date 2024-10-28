@@ -2,10 +2,22 @@
 
 <robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+     <!-- Argumento is_isgnition = True, estamos usando o ROS Humble -->   
+     <xacro:arg name="is_ignition" default="true"/>
+
+    <!-- Configurações do Gazebo -->
+ 
+    <xacro:include filename="$(find puma560_description)/urdf/puma560_gazebo.xacro"/>
+
+    <!-- Configurações de Controle -->
+
+    <xacro:include filename="$(find puma560_description)/urdf/puma560_control.xacro" />
+
     <!-- Definindo Cores -->
 
-    <xacro:include filename="$(find puma560_description)/urdf/cores.xacro" />
+    <xacro:include filename="$(find puma560_description)/urdf/puma560_cores.xacro" />
 
+    
     <!-- Definição dos parametros do modelo: Juntas -->
 
     <xacro:property name="lower"    value="-3.1416" />
@@ -24,8 +36,6 @@
     <!-- Carregar arquivo YAML -->
     <xacro:property name="yaml_file" value="$(find puma560_description)/config/link2_inertia.yaml" />
     <xacro:property name="link2_inertia" value="${xacro.load_yaml(yaml_file)}" />
-
-
 
     <!-- Puma 560 description.--> 
 

@@ -1,0 +1,3 @@
+1730072268.2720745 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-20-37-48-271698-thallys-722
+1730072268.2721677 [INFO] [launch]: Default logging verbosity is set to INFO
+1730072268.3113482 [ERROR] [launch]: Caught exception in launch (see debug for traceback): file not found: [Errno 2] No such file or directory: 'xacro/home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro--inorderis_ignition:=True'

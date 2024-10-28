@@ -1,0 +1,4 @@
+source;share/puma560_controller/local_setup.bash
+source;share/puma560_controller/local_setup.dsv
+source;share/puma560_controller/local_setup.sh
+source;share/puma560_controller/local_setup.zsh

@@ -11,4 +11,7 @@ else
     echo "Not running as root, skipping ownership adjustment."
 fi
 
+sudo chgrp video /dev/dri/*
+sudo chmod g+rw /dev/dri/*
+
 exec "$@"

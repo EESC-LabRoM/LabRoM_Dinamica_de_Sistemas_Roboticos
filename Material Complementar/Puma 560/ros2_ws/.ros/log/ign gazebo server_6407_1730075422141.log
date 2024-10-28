@@ -1,0 +1,35 @@
+[INFO] [1730075422.494805399] [gz_ros2_control]: [ign_ros2_control] Fixed joint [joint_0] (Entity=29)] is skipped
+[INFO] [1730075422.501699544] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[INFO] [1730075422.502824587] [gz_ros2_control]: Received URDF from param server
+[INFO] [1730075422.507030824] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[INFO] [1730075422.507174819] [gz_ros2_control]: Loading joint: joint_1
+[INFO] [1730075422.507202366] [gz_ros2_control]: 	State:
+[INFO] [1730075422.507222132] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507241210] [gz_ros2_control]: 	Command:
+[INFO] [1730075422.507257813] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507292609] [gz_ros2_control]: Loading joint: joint_3
+[INFO] [1730075422.507323809] [gz_ros2_control]: 	State:
+[INFO] [1730075422.507334283] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507344389] [gz_ros2_control]: 	Command:
+[INFO] [1730075422.507353405] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507383363] [gz_ros2_control]: Loading joint: joint_4
+[INFO] [1730075422.507398670] [gz_ros2_control]: 	State:
+[INFO] [1730075422.507412015] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507425321] [gz_ros2_control]: 	Command:
+[INFO] [1730075422.507439669] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507469649] [gz_ros2_control]: Loading joint: joint_5
+[INFO] [1730075422.507483589] [gz_ros2_control]: 	State:
+[INFO] [1730075422.507497544] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507511391] [gz_ros2_control]: 	Command:
+[INFO] [1730075422.507524649] [gz_ros2_control]: 		 position
+[INFO] [1730075422.507659919] [resource_manager]: Initialize hardware 'RobotSystem' 
+[WARN] [1730075422.507698890] [gz_ros2_control]: On init...
+[INFO] [1730075422.507837597] [resource_manager]: Successful initialization of hardware 'RobotSystem'
+[INFO] [1730075422.507931020] [resource_manager]: 'configure' hardware 'RobotSystem' 
+[INFO] [1730075422.507943473] [gz_ros2_control]: System Successfully configured!
+[INFO] [1730075422.507976068] [resource_manager]: Successful 'configure' of hardware 'RobotSystem'
+[INFO] [1730075422.508052737] [resource_manager]: 'activate' hardware 'RobotSystem' 
+[INFO] [1730075422.508067664] [resource_manager]: Successful 'activate' of hardware 'RobotSystem'
+[INFO] [1730075422.508110056] [gz_ros2_control]: Loading controller_manager
+[WARN] [1730075422.617146763] [gz_ros2_control]:  Desired controller update period (0.1 s) is slower than the gazebo simulation period (0.001 s).
+[INFO] [1730075801.766121884] [rclcpp]: signal_handler(signum=2)

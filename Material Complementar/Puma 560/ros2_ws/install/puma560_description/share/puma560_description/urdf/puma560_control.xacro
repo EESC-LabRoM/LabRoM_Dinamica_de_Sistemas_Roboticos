@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Definição dos parametros do modelo: Juntas -->
+
+    <xacro:property name="lower"    value="-3.1416" />
+    <xacro:property name="upper"    value="3.1416" />
+    
+    <ros2_control type="system" name="RobotSystem">
+        <!-- Hardward Interface com o Gazebo --> 
+        
+            <hardware>
+                <plugin>ign_ros2_control/IgnitionSystem</plugin>
+            </hardware>
+        
+        <!-- Hardward Interface com os Motores Reais -->
+        
+        <joint name = "joint_0">
+            <command_interface name="position">
+                <param name="min">0</param>
+                <param name="max">0</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name = "joint_1">
+            <command_interface name="position">
+                <param name="min">${lower/2}</param>
+                <param name="max">${upper/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name = "joint_3">
+            <command_interface name="position">
+                <param name="min">${lower/2}</param>
+                <param name="max">${upper/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name = "joint_4">
+            <command_interface name="position">
+                <param name="min">${lower/2}</param>
+                <param name="max">${upper/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name = "joint_5">
+            <command_interface name="position">
+                <param name="min">${lower/2}</param>
+                <param name="max">${upper/2}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+    </ros2_control>
+</robot>  

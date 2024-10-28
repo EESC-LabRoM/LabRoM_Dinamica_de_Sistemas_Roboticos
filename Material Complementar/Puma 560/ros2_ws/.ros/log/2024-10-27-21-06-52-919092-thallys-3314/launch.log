@@ -1,0 +1,7 @@
+1730074012.9194636 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-21-06-52-919092-thallys-3314
+1730074012.9195354 [INFO] [launch]: Default logging verbosity is set to INFO
+1730074013.0090814 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command showed stderr output. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro is_ignition:=True
+Captured stderr output:
+warning: xacro:include: unknown attribute(s): is_ignition
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+

@@ -1,0 +1,9 @@
+[INFO] [1729883390.031392365] [robot_state_publisher]: got segment base_link
+[INFO] [1729883390.031500539] [robot_state_publisher]: got segment link_1
+[INFO] [1729883390.031508944] [robot_state_publisher]: got segment link_2
+[INFO] [1729883390.031513442] [robot_state_publisher]: got segment link_3
+[INFO] [1729883390.031517646] [robot_state_publisher]: got segment link_4
+[INFO] [1729883390.031521748] [robot_state_publisher]: got segment link_5
+[INFO] [1729883390.031525799] [robot_state_publisher]: got segment world
+[WARN] [1729883452.317180831] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[INFO] [1729893489.790290769] [rclcpp]: signal_handler(signum=2)

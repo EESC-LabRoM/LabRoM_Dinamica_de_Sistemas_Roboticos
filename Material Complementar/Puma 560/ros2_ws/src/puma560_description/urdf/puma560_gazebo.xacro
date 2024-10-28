@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<robot name = "puma560" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <!-- Argumento is_isgnition = True, estamos usando o ROS Humble -->   
+  <xacro:arg name="is_ignition" default="true"/>
+  <gazebo>    
+      <plugin filename="ign_ros2_control-system"  name="ign_ros2_control::IgnitionROS2ControlPlugin">
+          <parameters>$(find puma560_controller)/config/puma560_controller.yaml</parameters>
+      </plugin>     
+  </gazebo>
+</robot>

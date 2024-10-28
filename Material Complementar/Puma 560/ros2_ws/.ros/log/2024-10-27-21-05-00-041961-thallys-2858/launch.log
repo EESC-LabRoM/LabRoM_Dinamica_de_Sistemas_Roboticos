@@ -1,0 +1,9 @@
+1730073900.0423524 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-27-21-05-00-041961-thallys-2858
+1730073900.0424368 [INFO] [launch]: Default logging verbosity is set to INFO
+1730073900.1266713 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executed command failed. Command: xacro /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro is_ignition:=True
+Captured stderr output: warning: xacro:include: unknown attribute(s): is_ignition
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+error: invalid expression: $(arg is_ignition
+when processing file: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_control.xacro
+included from: /home/ros2_ws/install/puma560_description/share/puma560_description/urdf/puma560_description.urdf.xacro
+
