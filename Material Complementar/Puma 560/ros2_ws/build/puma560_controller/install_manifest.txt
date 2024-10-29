@@ -1,4 +1,5 @@
 /home/ros2_ws/install/puma560_controller/share/puma560_controller/config/puma560_controller.yaml
+/home/ros2_ws/install/puma560_controller/share/puma560_controller/launch/puma560_controller.launch.py
 /home/ros2_ws/install/puma560_controller/share/ament_index/resource_index/package_run_dependencies/puma560_controller
 /home/ros2_ws/install/puma560_controller/share/ament_index/resource_index/parent_prefix_path/puma560_controller
 /home/ros2_ws/install/puma560_controller/share/puma560_controller/environment/ament_prefix_path.sh

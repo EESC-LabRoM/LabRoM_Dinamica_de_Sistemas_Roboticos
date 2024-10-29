@@ -1,0 +1,4 @@
+[INFO] [1730165352.796146431] [ros_gz_sim]: Requesting list of world names.
+[INFO] [1730165353.305614244] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[INFO] [1730165353.405716994] [ros_gz_sim]: Requested creation of entity.
+[INFO] [1730165353.405753345] [ros_gz_sim]: OK creation of entity.

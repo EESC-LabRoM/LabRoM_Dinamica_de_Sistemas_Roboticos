@@ -5,14 +5,6 @@
      <!-- Argumento is_isgnition = True, estamos usando o ROS Humble -->   
      <xacro:arg name="is_ignition" default="true"/>
 
-    <!-- Configurações do Gazebo -->
- 
-    <xacro:include filename="$(find puma560_description)/urdf/puma560_gazebo.xacro"/>
-
-    <!-- Configurações de Controle -->
-
-    <xacro:include filename="$(find puma560_description)/urdf/puma560_control.xacro" />
-
     <!-- Definindo Cores -->
 
     <xacro:include filename="$(find puma560_description)/urdf/puma560_cores.xacro" />
@@ -291,6 +283,15 @@
                 filename="package://puma560_description/meshes/link_5.STL" />
             </geometry>
         </collision>
-    </link>    
+    </link>  
+    
+    <!-- Configurações do Gazebo -->
+ 
+    <xacro:include filename="$(find puma560_description)/urdf/puma560_gazebo.xacro"/>
+
+    <!-- Configurações de Controle -->
+
+    <xacro:include filename="$(find puma560_description)/urdf/puma560_control.xacro" />
+
 
 </robot>

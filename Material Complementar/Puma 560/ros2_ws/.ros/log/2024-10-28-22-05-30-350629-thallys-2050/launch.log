@@ -1,0 +1,25 @@
+1730163930.3511660 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-10-28-22-05-30-350629-thallys-2050
+1730163930.3512635 [INFO] [launch]: Default logging verbosity is set to INFO
+1730163930.4898088 [INFO] [robot_state_publisher-1]: process started with pid [2052]
+1730163930.4899328 [INFO] [spawner-2]: process started with pid [2054]
+1730163930.4899845 [INFO] [spawner-3]: process started with pid [2056]
+1730163930.4900248 [INFO] [spawner-4]: process started with pid [2058]
+1730163930.5342321 [robot_state_publisher-1] [INFO] [1730163930.533984403] [robot_state_publisher]: got segment base_link
+1730163930.5345550 [robot_state_publisher-1] [INFO] [1730163930.534089969] [robot_state_publisher]: got segment link_1
+1730163930.5346220 [robot_state_publisher-1] [INFO] [1730163930.534096727] [robot_state_publisher]: got segment link_2
+1730163930.5346606 [robot_state_publisher-1] [INFO] [1730163930.534101476] [robot_state_publisher]: got segment link_3
+1730163930.5346928 [robot_state_publisher-1] [INFO] [1730163930.534105676] [robot_state_publisher]: got segment link_4
+1730163930.5347223 [robot_state_publisher-1] [INFO] [1730163930.534109805] [robot_state_publisher]: got segment link_5
+1730163930.5347509 [robot_state_publisher-1] [INFO] [1730163930.534113854] [robot_state_publisher]: got segment world
+1730163930.7359457 [spawner-2] [INFO] [1730163930.735742283] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+1730163930.7622118 [spawner-3] [INFO] [1730163930.760528797] [spawner_arm_controller]: [94mLoaded [1marm_controller[0m
+1730163930.7884088 [spawner-4] [INFO] [1730163930.787617325] [spawner_gripper_controller]: [94mLoaded [1mgripper_controller[0m
+1730163930.7985761 [spawner-4] [ERROR] [1730163930.798422926] [spawner_gripper_controller]: [91mFailed to configure controller[0m
+1730163930.8600562 [spawner-2] [INFO] [1730163930.859841474] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+1730163930.8607631 [spawner-3] [ERROR] [1730163930.860583759] [spawner_arm_controller]: [91mFailed to configure controller[0m
+1730163930.9438586 [ERROR] [spawner-4]: process has died [pid 2058, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner gripper_controller --controller-manager /controller_manager --ros-args'].
+1730163930.9968698 [INFO] [spawner-2]: process has finished cleanly [pid 2054]
+1730163931.0007329 [ERROR] [spawner-3]: process has died [pid 2056, exit code 1, cmd '/opt/ros/humble/lib/controller_manager/spawner arm_controller --controller-manager /controller_manager --ros-args'].
+1730164715.7351935 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1730164715.7370450 [robot_state_publisher-1] [INFO] [1730164715.735080983] [rclcpp]: signal_handler(signum=2)
+1730164715.8469145 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 2052]

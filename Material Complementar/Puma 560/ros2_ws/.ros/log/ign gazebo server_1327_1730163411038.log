@@ -1,0 +1,70 @@
+[INFO] [1730163411.392945144] [gz_ros2_control]: [ign_ros2_control] Fixed joint [joint_0] (Entity=29)] is skipped
+[INFO] [1730163411.396173477] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[INFO] [1730163411.397331752] [gz_ros2_control]: Received URDF from param server
+[INFO] [1730163411.402385442] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[WARN] [1730163411.402413198] [gz_ros2_control]: Skipping joint in the URDF named 'joint_0' which is not in the gazebo model.
+[INFO] [1730163411.402432700] [gz_ros2_control]: Loading joint: joint_1
+[INFO] [1730163411.402438570] [gz_ros2_control]: 	State:
+[INFO] [1730163411.402443423] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402453815] [gz_ros2_control]: 	Command:
+[INFO] [1730163411.402456780] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402463494] [gz_ros2_control]: Loading joint: joint_3
+[INFO] [1730163411.402466001] [gz_ros2_control]: 	State:
+[INFO] [1730163411.402468423] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402470797] [gz_ros2_control]: 	Command:
+[INFO] [1730163411.402472968] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402477166] [gz_ros2_control]: Loading joint: joint_4
+[INFO] [1730163411.402479821] [gz_ros2_control]: 	State:
+[INFO] [1730163411.402482149] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402484478] [gz_ros2_control]: 	Command:
+[INFO] [1730163411.402486695] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402490678] [gz_ros2_control]: Loading joint: joint_5
+[INFO] [1730163411.402493050] [gz_ros2_control]: 	State:
+[INFO] [1730163411.402495508] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402497775] [gz_ros2_control]: 	Command:
+[INFO] [1730163411.402499929] [gz_ros2_control]: 		 position
+[INFO] [1730163411.402527682] [resource_manager]: Initialize hardware 'RobotSystem' 
+[WARN] [1730163411.402538692] [gz_ros2_control]: On init...
+[INFO] [1730163411.402568343] [resource_manager]: Successful initialization of hardware 'RobotSystem'
+[INFO] [1730163411.402599933] [resource_manager]: 'configure' hardware 'RobotSystem' 
+[INFO] [1730163411.402604105] [gz_ros2_control]: System Successfully configured!
+[INFO] [1730163411.402615013] [resource_manager]: Successful 'configure' of hardware 'RobotSystem'
+[INFO] [1730163411.402621822] [resource_manager]: 'activate' hardware 'RobotSystem' 
+[INFO] [1730163411.402626606] [resource_manager]: Successful 'activate' of hardware 'RobotSystem'
+[INFO] [1730163411.402631785] [gz_ros2_control]: Loading controller_manager
+[WARN] [1730163411.512919781] [gz_ros2_control]:  Desired controller update period (0.1 s) is slower than the gazebo simulation period (0.001 s).
+[INFO] [1730163449.138143175] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1730163449.253865608] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1730163449.407930371] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1730163449.408093824] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1730163449.548549337] [controller_manager]: Configuring controller 'gripper_controller'
+[INFO] [1730163449.549791710] [gripper_controller]: configure successful
+[INFO] [1730163449.686728481] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1730163449.711973316] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1730163450.126286102] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1730163450.126473919] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1730163450.126497022] [arm_controller]: Command interfaces are [position] and state interfaces are [position].
+[INFO] [1730163450.126517570] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1730163450.136288087] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1730163450.139265957] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1730163450.444267259] [gripper_controller]: activate successful
+[ERROR] [1730163450.589347980] [resource_manager]: Not acceptable command interfaces combination: 
+Start interfaces: 
+[
+  joint_0/position
+  joint_1/position
+  joint_2/position
+  joint_3/position
+  joint_4/position
+]
+Stop interfaces: 
+[
+]
+Not existing: 
+[
+ joint_0/position
+ joint_2/position
+]
+
+[ERROR] [1730163450.589385192] [controller_manager]: Could not switch controllers since prepare command mode switch was rejected.
+[INFO] [1730163706.137995673] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,51 @@
+[INFO] [1730164728.323836352] [gz_ros2_control]: [ign_ros2_control] Fixed joint [joint_0] (Entity=29)] is skipped
+[INFO] [1730164728.329705425] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[INFO] [1730164728.330943941] [gz_ros2_control]: Received URDF from param server
+[INFO] [1730164728.338079271] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[WARN] [1730164728.338135555] [gz_ros2_control]: Skipping joint in the URDF named 'joint_0' which is not in the gazebo model.
+[INFO] [1730164728.338177631] [gz_ros2_control]: Loading joint: joint_1
+[INFO] [1730164728.338195235] [gz_ros2_control]: 	State:
+[INFO] [1730164728.338206576] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338221049] [gz_ros2_control]: 	Command:
+[INFO] [1730164728.338234212] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338252254] [gz_ros2_control]: Loading joint: joint_3
+[INFO] [1730164728.338260527] [gz_ros2_control]: 	State:
+[INFO] [1730164728.338268552] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338276950] [gz_ros2_control]: 	Command:
+[INFO] [1730164728.338284531] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338297844] [gz_ros2_control]: Loading joint: joint_4
+[INFO] [1730164728.338306325] [gz_ros2_control]: 	State:
+[INFO] [1730164728.338313960] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338323318] [gz_ros2_control]: 	Command:
+[INFO] [1730164728.338335422] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338349843] [gz_ros2_control]: Loading joint: joint_5
+[INFO] [1730164728.338357525] [gz_ros2_control]: 	State:
+[INFO] [1730164728.338364868] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338372148] [gz_ros2_control]: 	Command:
+[INFO] [1730164728.338379225] [gz_ros2_control]: 		 position
+[INFO] [1730164728.338456796] [resource_manager]: Initialize hardware 'RobotSystem' 
+[WARN] [1730164728.338481257] [gz_ros2_control]: On init...
+[INFO] [1730164728.338555501] [resource_manager]: Successful initialization of hardware 'RobotSystem'
+[INFO] [1730164728.338607622] [resource_manager]: 'configure' hardware 'RobotSystem' 
+[INFO] [1730164728.338615159] [gz_ros2_control]: System Successfully configured!
+[INFO] [1730164728.338630862] [resource_manager]: Successful 'configure' of hardware 'RobotSystem'
+[INFO] [1730164728.338644638] [resource_manager]: 'activate' hardware 'RobotSystem' 
+[INFO] [1730164728.338653778] [resource_manager]: Successful 'activate' of hardware 'RobotSystem'
+[INFO] [1730164728.338663226] [gz_ros2_control]: Loading controller_manager
+[WARN] [1730164728.451915054] [gz_ros2_control]:  Desired controller update period (0.1 s) is slower than the gazebo simulation period (0.001 s).
+[INFO] [1730164733.265113038] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1730164733.401984621] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1730164733.408539587] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1730164733.549944726] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1730164733.697579133] [controller_manager]: Configuring controller 'gripper_controller'
+[ERROR] [1730164733.697718324] [gripper_controller]: 'joints' parameter was empty
+[WARN] [1730164733.697747529] [gripper_controller]: Error occurred while doing error handling.
+[ERROR] [1730164733.697764282] [controller_manager]: After configuring, controller 'gripper_controller' is in state 'unconfigured' , expected inactive.
+[INFO] [1730164733.697917766] [controller_manager]: Configuring controller 'arm_controller'
+[WARN] [1730164733.697988583] [arm_controller]: 'joints' parameter is empty.
+[INFO] [1730164733.698007142] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ERROR] [1730164733.698016155] [arm_controller]: 'command_interfaces' parameter is empty.
+[ERROR] [1730164733.698032736] [controller_manager]: After configuring, controller 'arm_controller' is in state 'unconfigured' , expected inactive.
+[INFO] [1730164733.727796221] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1730164733.727883591] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[INFO] [1730165008.409207381] [rclcpp]: signal_handler(signum=2)

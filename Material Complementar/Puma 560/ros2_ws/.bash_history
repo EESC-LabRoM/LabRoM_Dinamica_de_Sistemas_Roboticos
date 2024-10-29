@@ -317,3 +317,25 @@ source install/setup.bash
 ros2 launch puma560_description puma_gazebo.launch.py 
 eixt
 exit
+ls
+colcon build
+source install/setup.bash 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch puma560_description puma_gazebo.launch.py 
+exit
